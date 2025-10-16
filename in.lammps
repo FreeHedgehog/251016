@@ -8,7 +8,7 @@ newton		off
 # processors  1 2 1
 
 communicate single vel yes
-read_data 	IC_uniform_10000.in
+read_data 	IC_uniform_100.in
 #read_data	initial_bed.lammps
 
 neighbor	5.0e-4 bin
@@ -17,7 +17,7 @@ neigh_modify	delay 0
 # pair_style  none
 pair_style  gran/hooke/history 5000.0 NULL 11200 NULL 0.1 0
 pair_coeff  * *
-timestep	2e-7
+timestep	1e-6
 
 velocity    all set 0.0 0.0 0.0 units box
 

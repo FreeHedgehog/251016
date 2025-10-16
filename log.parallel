@@ -1,0 +1,187 @@
+Unexpected end of /proc/mounts line `overlay / overlay rw,relatime,lowerdir=/data/docker/overlay2/l/JW44UK6HRR2J4IUEOI7KXUDTY2:/data/docker/overlay2/l/275VU4HY47HXMZSHBK3LSJW25O:/data/docker/overlay2/l/RY4EM5IFTTU33ONZEOC72CRPBJ:/data/docker/overlay2/l/7NZCOTGX6OOKTOMQKK52KCSFIY:/data/docker/overlay2/l/KR5ALCAWONGK6U3XZ2W243X7PE:/data/docker/overlay2/l/NSFEJYSH7JYTLRJR2YAKVGMUPE:/data/docker/overlay2/l/V6XQCSEC4ZWYT3CCBLN4K7LEQ3:/data/docker/overlay2/l/U2KVSSFUYRHU7ECMITZ5IAJMZU:/data/docker/overlay2/l/E32ZIKLYPPIZQ2CG3X2L6LGJ67:/data/docker/'
+Unexpected end of /proc/mounts line `overlay2/l/GTG4PAPSBCCOL3TP5TTCG7O5DD:/data/docker/overlay2/l/PBMDI7X563UP2LJYPOFBTWTGJJ:/data/docker/overlay2/l/JWZ55FM7M7ZXCPE26KQPW3DVOW:/data/docker/overlay2/l/SI5SU57NT337P4MU4JSQ7JOUME:/data/docker/overlay2/l/PE6CDPKJ4YJRSOBMC6IJXW44YQ:/data/docker/overlay2/l/RXQE7NUQDT24XNEQG5IKSTAWUL:/data/docker/overlay2/l/YTB3SEAQEFCBH3VLQCRNGH4ZKE:/data/docker/overlay2/l/7XMQJQM2BE4NCPZUNKL7HRWAWB:/data/docker/overlay2/l/GYQKKWU2ZBKMFEQ4I7HPVDIRJJ:/data/docker/overlay2/l/GDAEYOL4E5ZV2PL2W4HR3GH7YB:/data/docker/o'
+--------------------------------------------------------------------------
+[[29094,1],6]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: autodl-container-7a3549ab46-711d4f04
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+libibverbs: Warning: couldn't open config directory '/etc/libibverbs.d'.
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs1
+libibverbs: Warning: no userspace device-specific driver found for /sys/class/infiniband_verbs/uverbs0
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : lammpsFoam -parallel
+Date   : Oct 16 2025
+Time   : 16:46:00
+Host   : "autodl-container-7a3549ab46-711d4f04"
+PID    : 2688
+Case   : /root/windDEM/251016
+nProcs : 32
+Slaves : 
+31
+(
+"autodl-container-7a3549ab46-711d4f04.2689"
+"autodl-container-7a3549ab46-711d4f04.2690"
+"autodl-container-7a3549ab46-711d4f04.2691"
+"autodl-container-7a3549ab46-711d4f04.2692"
+"autodl-container-7a3549ab46-711d4f04.2693"
+"autodl-container-7a3549ab46-711d4f04.2694"
+"autodl-container-7a3549ab46-711d4f04.2695"
+"autodl-container-7a3549ab46-711d4f04.2696"
+"autodl-container-7a3549ab46-711d4f04.2697"
+"autodl-container-7a3549ab46-711d4f04.2698"
+"autodl-container-7a3549ab46-711d4f04.2699"
+"autodl-container-7a3549ab46-711d4f04.2700"
+"autodl-container-7a3549ab46-711d4f04.2701"
+"autodl-container-7a3549ab46-711d4f04.2702"
+"autodl-container-7a3549ab46-711d4f04.2703"
+"autodl-container-7a3549ab46-711d4f04.2704"
+"autodl-container-7a3549ab46-711d4f04.2705"
+"autodl-container-7a3549ab46-711d4f04.2706"
+"autodl-container-7a3549ab46-711d4f04.2707"
+"autodl-container-7a3549ab46-711d4f04.2708"
+"autodl-container-7a3549ab46-711d4f04.2709"
+"autodl-container-7a3549ab46-711d4f04.2710"
+"autodl-container-7a3549ab46-711d4f04.2711"
+"autodl-container-7a3549ab46-711d4f04.2712"
+"autodl-container-7a3549ab46-711d4f04.2713"
+"autodl-container-7a3549ab46-711d4f04.2714"
+"autodl-container-7a3549ab46-711d4f04.2715"
+"autodl-container-7a3549ab46-711d4f04.2718"
+"autodl-container-7a3549ab46-711d4f04.2719"
+"autodl-container-7a3549ab46-711d4f04.2726"
+"autodl-container-7a3549ab46-711d4f04.2732"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+[0] 
+[0] 
+[0] --> FOAM FATAL ERROR: 
+[0] lammpsFoam: cannot open case directory "/root/windDEM/251016/processor0"
+[0] 
+[0] 
+FOAM parallel run exiting
+[0] 
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD 
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[autodl-container-7a3549ab46-711d4f04:02686] 31 more processes have sent help message help-mpi-btl-base.txt / btl:no-nics
+[autodl-container-7a3549ab46-711d4f04:02686] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

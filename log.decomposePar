@@ -1,0 +1,44 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : decomposePar
+Date   : Oct 16 2025
+Time   : 16:45:59
+Host   : "autodl-container-7a3549ab46-711d4f04"
+PID    : 2663
+Case   : /root/windDEM/251016
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh region0
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decompositionMethod scotch
+
+Finished decomposition in 0.01 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+#0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#1  Foam::sigSegv::sigHandler(int) at ??:?
+#2  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+#3  Foam::invertOneToMany(int, Foam::UList<int> const&) at ??:?
+#4  ? at ??:?
+#5  ? at ??:?
+#6  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+#7  ? at ??:?
