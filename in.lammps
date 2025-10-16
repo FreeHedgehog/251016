@@ -17,7 +17,11 @@ neigh_modify	delay 0
 # pair_style  none
 pair_style  gran/hooke/history 5000.0 NULL 11200 NULL 0.1 0
 pair_coeff  * *
+<<<<<<< HEAD
 timestep	1e-7
+=======
+timestep	2e-7
+>>>>>>> 44c28d6 (2)
 
 velocity    all set 0.0 0.0 0.0 units box
 
