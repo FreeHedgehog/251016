@@ -2,7 +2,7 @@ import math
 from pathlib import Path
 
 
-num_atoms = 10000
+num_atoms = 100
 atom_type = 1
 
 DIAMETER = 1.7e-4
@@ -63,7 +63,7 @@ if len(coords) < num_atoms:
 assert len(coords) >= num_atoms, f"Only {len(coords)} positions available"
 coords = coords[:num_atoms]
 
-out_path = Path("./IC_uniform_10000.in")
+out_path = Path("./IC_uniform_100.in")
 with out_path.open("w") as f:
     f.write(" Granular Flow simulation\n\n")
     f.write(f"{num_atoms:12d}  atoms\n")

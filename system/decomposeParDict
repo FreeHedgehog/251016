@@ -13,30 +13,45 @@ FoamFile
 
     class       dictionary;
     location    "system";
-object      decomposeParDict;
+    object      decomposeParDict;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 numberOfSubdomains 32;
 
-method          simple;
+
+method          scotch;
+
 
 simpleCoeffs
 {
-    n               (8 4 1);
+
+    n               (16 2 1);
+  
     delta           0.001;
 }
 
+
 hierarchicalCoeffs
 {
-    n               ( 2 16 1 );
+    n               (8 4 1);
     delta           0.001;
     order           xyz;
 }
 
+
 metisCoeffs
 {
+    processorWeights ( );
+}
+
+
+scotchCoeffs
+{
+    processorWeights ( );
+    writeGraph      false;
+    strategy        "b";
 }
 
 manualCoeffs
