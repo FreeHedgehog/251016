@@ -21,14 +21,13 @@ FoamFile
 numberOfSubdomains 32;
 
 
-method          scotch;
+method          simple;
 
 
 simpleCoeffs
 {
-
-    n               (16 2 1);
-  
+    // 为80×16×5网格优化的32核分解（每核200单元）
+    n               (8 4 1);
     delta           0.001;
 }
 
