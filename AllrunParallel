@@ -15,8 +15,8 @@ blockMesh &> log.bolckMesh
 
 decomposePar &> log.decomposePar
 
-NPROCS=${NPROCS:-32}
+NPROCS=${NPROCS:-128}
 export OMPI_ALLOW_RUN_AS_ROOT=1
 export OMPI_ALLOW_RUN_AS_ROOT_CONFIRM=1
 
-mpirun --allow-run-as-root -np "$NPROCS" lammpsFoam -parallel &> log.parallel
+mpirun --allow-run-as-root --mca btl self,tcp  -np "$NPROCS" lammpsFoam -parallel &> log.parallel
