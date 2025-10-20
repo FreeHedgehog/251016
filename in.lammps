@@ -1,177 +1,35 @@
-# 2D particle pipe simulation
-
-
-
 units si
-
-atom_style	sphere
-
-atom_modify	map array
-
-boundary	ff ff ff
-
-newton		off
-
-processors  16 4 2
-
-
+atom_style sphere
+atom_modify map array
+boundary ff ff ff
+newton off
+processors 16 4 2
 
 communicate single vel yes
+read_data initial_bed.lammps
 
-#read_data 	IC_uniform_100.in
+neighbor 5.0e-4 bin
+neigh_modify every 1 delay 0 check yes
 
-read_data	initial_bed.lammps
+pair_style gran/hertz/history 5000.0 50.0 11200.0 50.0 0.5 0
+pair_coeff * *
+timestep 5e-8
 
-  orthogonal box = (0 0 0) to (0.05 0.02 0.01)
-  16 by 4 by 2 MPI processor grid
-  reading atoms ...
-  26250 atoms
+velocity all set 0.0 0.0 0.0 units box
 
+fix 1 all nve/sphere
+fix 2 all gravity 9.81 vector 0 0 -1
+fix 3 all fdrag
 
-neighbor	5.0e-4 bin
+fix xwall all wall/gran 5000.0 NULL 11200 NULL 0.1 0 xplane 0.00 0.05
+fix ywall all wall/gran 5000.0 NULL 11200 NULL 0.1 0 yplane 0.00 0.02
+fix zwall all wall/gran 5000.0 NULL 11200 NULL 0.1 0 zplane 0.00 0.01
 
-neigh_modify	every 1 delay 0 check yes
+dump id all custom 1000 snapshot.bubblemd id type diameter mass x y z vx vy vz
 
-
-
-# pair_style  none
-
-pair_style  gran/hertz/history 5000.0 50.0 11200.0 50.0 0.5 0
-
-pair_coeff  * *
-
-timestep	5e-8
-
-
-
-velocity    all set 0.0 0.0 0.0 units box
-
-
-
-fix		1 all nve/sphere  
-
-fix		2 all gravity 9.81 vector 0 0 -1 # spherical 90.0 -180.0    
-
-fix     3 all fdrag
-
-
-
-fix  xwall all wall/gran 5000.0 NULL 11200 NULL 0.1 0 xplane 0.00 0.05
-
-fix  ywall all wall/gran 5000.0 NULL 11200 NULL 0.1 0 yplane 0.00 0.02
-
-fix  zwall all wall/gran 5000.0 NULL 11200 NULL 0.1 0 zplane 0.00 0.01
-
-
-
-#dump		id all custom 30000 snapshot2.bubblemd tag type x y z vx vy vz
-
-dump		id all custom 1000 snapshot.bubblemd id type diameter mass x y z vx vy vz
-
-
-
-#thermo_style  granular # not work. syntax change?
-
-thermo_style  one   # granular does not work
-
-thermo		2000
-
-thermo_modify	lost warn
-
-#restart		1000000  restart.*.bubblemd
+thermo_style one
+thermo 2000
+thermo_modify lost warn
 
 run 0 pre no post no
-Memory usage per processor = 14.3202 Mbytes
-Step Temp E_pair E_mol TotEng Press 
-       0            0            0            0            0 6.9152673e-10 
-Loop time of 0.00034973 on 128 procs for 0 steps with 26250 atoms
 run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-       0            0            0            0            0 6.9152673e-10 
-    2000 4.0195749e+11            0            0 2.1850826e-07    16.239607 
-    4000 7.1188599e+11            0            0 3.8698862e-07    63.570253 
-    6000 5.7493904e+11            0            0 3.1254283e-07    96.665477 
-    8000 2.8895192e+12            0            0 1.5707727e-06     16.46029 
-   10000 5.0221798e+12            0            0 2.7301091e-06    1.0062708 
-Loop time of 20.8301 on 128 procs for 10000 steps with 26250 atoms
-run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-   10000 5.0221798e+12            0            0 2.7301091e-06    1.0062708 
-   12000 6.3506436e+16            0            0  0.034522758    2720.9725 
-   14000 2.2650806e+17            0            0   0.12313214      9122.31 
-   16000 4.1084321e+17            0            0   0.22333864    15721.158 
-   18000 4.9805138e+17            0            0    0.2707459    22906.432 
-   20000 2.3826957e+17            0            0   0.12952581    10288.972 
-Loop time of 25.3049 on 128 procs for 10000 steps with 26037 atoms
-run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-   20000 2.3826957e+17            0            0   0.12952581    10288.972 
-   22000 1.9671787e+17            0            0   0.10693788    8025.8343 
-   24000 1.6615475e+17            0            0  0.090323449    6914.4789 
-   26000  1.42764e+17            0            0  0.077607996     5637.341 
-   28000 1.1983606e+17            0            0  0.065144126     4586.594 
-   30000 1.0865135e+17            0            0  0.059064002    4113.5118 
-Loop time of 14.8878 on 128 procs for 10000 steps with 25990 atoms
-run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-   30000 1.0865135e+17            0            0  0.059064002    4113.5118 
-   32000 1.127394e+17            0            0  0.061286311    4196.7473 
-   34000 1.0128086e+17            0            0  0.055057325    3772.1762 
-   36000 9.697421e+16            0            0  0.052716188    3601.8754 
-   38000 8.8506628e+16            0            0  0.048113122    3299.3715 
-   40000 8.1338333e+16            0            0  0.044216363    3024.0895 
-Loop time of 9.35643 on 128 procs for 10000 steps with 25887 atoms
-run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-   40000 8.1338333e+16            0            0  0.044216363    3024.0895 
-   42000 7.472613e+16            0            0    0.0406219    2777.6585 
-   44000 6.976545e+16            0            0  0.037925223    2587.6253 
-   46000 6.4523779e+16            0            0  0.035075797    2400.1591 
-   48000 5.9114539e+16            0            0  0.032135278    2200.9153 
-   50000 5.4046742e+16            0            0   0.02938037      2005.16 
-Loop time of 5.8826 on 128 procs for 10000 steps with 25729 atoms
-run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-   50000 5.4046742e+16            0            0   0.02938037      2005.16 
-   52000 5.9942129e+16            0            0  0.032585164    2230.5846 
-   54000 5.7724512e+16            0            0  0.031379644    2151.3536 
-   56000 5.5009251e+16            0            0    0.0299036    2062.7383 
-   58000 5.1568169e+16            0            0  0.028032992     1928.553 
-   60000 4.8721903e+16            0            0  0.026485732    1832.6556 
-Loop time of 39.9746 on 128 procs for 10000 steps with 25399 atoms
-run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-   60000 4.8721903e+16            0            0  0.026485732    1832.6556 
-   62000 1.4042791e+17            0            0   0.07633807    5185.4375 
-   64000 1.1481399e+17            0            0  0.062414075    4269.2202 
-   66000 1.1114912e+17            0            0  0.060421818    4161.9763 
-   68000 1.0877839e+17            0            0  0.059133064    4101.6386 
-   70000 1.0145887e+17            0            0  0.055154094    3840.9939 
-Loop time of 6.96292 on 128 procs for 10000 steps with 23409 atoms
-run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-   70000 1.0145887e+17            0            0  0.055154094    3840.9939 
-   72000 3.8617522e+17            0            0   0.20992886    14501.915 
-   74000 2.9011967e+17            0            0   0.15771206    10712.955 
-   76000 2.247767e+17            0            0   0.12219095    8321.3441 
-   78000 1.5049356e+17            0            0  0.081809862      5675.97 
-   80000 8.4454323e+16            0            0  0.045910247    3325.7508 
-Loop time of 14.702 on 128 procs for 10000 steps with 7340 atoms
-run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-   80000 8.4454323e+16            0            0  0.045910247    3325.7508 
-   82000            0            0            0            0            0 
-   84000            0            0            0            0            0 
-   86000            0            0            0            0            0 
-   88000            0            0            0            0            0 
-   90000            0            0            0            0            0 
-Loop time of 13.0839 on 128 procs for 10000 steps with 0 atoms
-run 10000 pre no post no
-Step Temp E_pair E_mol TotEng Press 
-   90000            0            0            0            0            0 
-   92000            0            0            0            0            0 
-   94000            0            0            0            0            0 
-   96000            0            0            0            0            0 
-   98000            0            0            0            0            0 
-  100000            0            0            0            0            0 
-Loop time of 3.34064 on 128 procs for 10000 steps with 0 atoms
