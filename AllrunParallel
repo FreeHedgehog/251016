@@ -19,8 +19,4 @@ NPROCS=${NPROCS:-128}
 export OMPI_ALLOW_RUN_AS_ROOT=1
 export OMPI_ALLOW_RUN_AS_ROOT_CONFIRM=1
 
-<<<<<<< HEAD
 mpirun --allow-run-as-root --mca btl self,tcp  -np "$NPROCS" lammpsFoam -parallel &> log.parallel
-=======
-mpirun --mca btl ^openib --allow-run-as-root -np "$NPROCS" lammpsFoam -parallel &> log.parallel
->>>>>>> 44c28d6 (2)
