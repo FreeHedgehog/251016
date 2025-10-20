@@ -26,15 +26,14 @@ method          simple;
 
 simpleCoeffs
 {
-    // 为80×16×5网格优化的32核分解（每核200单元）
-    n               (8 4 1);
+    n               (16 4 2);
     delta           0.001;
 }
 
 
 hierarchicalCoeffs
 {
-    n               (8 4 1);
+    n               (16 4 2);
     delta           0.001;
     order           xyz;
 }
