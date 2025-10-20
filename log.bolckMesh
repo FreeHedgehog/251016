@@ -1,0 +1,79 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : blockMesh
+Date   : Oct 20 2025
+Time   : 17:22:55
+Host   : "autodl-container-68ab428934-c4e3195d"
+PID    : 2590
+Case   : /root/windDEM/251016
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/root/windDEM/251016/constant/polyMesh/blockMeshDict"
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Reading patches section
+
+Creating block mesh topology
+
+Reading physicalType from existing boundary file
+
+Default patch type set to empty
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.000625 .. 0.000625
+        j : 0.00125 .. 0.00125
+        k : 0.002 .. 0.002
+
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (0.05 0.02 0.01)
+  nPoints: 8262
+  nCells: 6400
+  nFaces: 20960
+  nInternalFaces: 17440
+----------------
+Patches
+----------------
+  patch 0 (start: 17440 size: 80) name: inlet
+  patch 1 (start: 17520 size: 80) name: outlet
+  patch 2 (start: 17600 size: 1280) name: bottom
+  patch 3 (start: 18880 size: 1280) name: top
+  patch 4 (start: 20160 size: 400) name: side1
+  patch 5 (start: 20560 size: 400) name: side2
+
+End
+

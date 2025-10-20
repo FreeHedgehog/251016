@@ -1,0 +1,1082 @@
+Unexpected end of /proc/mounts line `overlay / overlay rw,relatime,lowerdir=/data/docker/overlay2/l/BZURXS4YHNIFDQPN46XOC26PIZ:/data/docker/overlay2/l/IZZK2XN7TXKDTDVOFI62BW4FUN:/data/docker/overlay2/l/CXETXQI3ZU3S43T4ADDWF62CNL:/data/docker/overlay2/l/K6AETV65RMUGCOSQWXKBAGEQLX:/data/docker/overlay2/l/FPWXQIE44EYSQRHJRMHMUOFAGJ:/data/docker/overlay2/l/XUENBPH5F6XQTLPQVRQQYFKDYZ:/data/docker/overlay2/l/ZEWWAID4EBJS4KZFPGANGCR2BO:/data/docker/overlay2/l/REYEOJCXTGVOOKMO2CJZEOH2FV:/data/docker/overlay2/l/C4T5VEJAGS2OK6K3M3523QXSGV:/data/docker/'
+Unexpected end of /proc/mounts line `overlay2/l/5LMWOC7PENKH434TEZS75HKQB6:/data/docker/overlay2/l/DOAB5S6MFGNLSVEUEZVK5YZI6Y:/data/docker/overlay2/l/5FFTOVZ62VHEWKORD7VHTQNLM7:/data/docker/overlay2/l/NKG4XUCRUIME2CXQ32OG4L5UBZ:/data/docker/overlay2/l/GYYQMSTURQ3DRDODVTBQJIKDQG:/data/docker/overlay2/l/RY2H4RUNIBVF4BJOYB3U6BDOMH:/data/docker/overlay2/l/RMZDBRWLRANUR6IN2TIH3VYWJI:/data/docker/overlay2/l/T6E2JI6NYUQICFPSWNCDTGGILV:/data/docker/overlay2/l/CFCISXCHESQSGPX3LDWNDUPFWM:/data/docker/overlay2/l/D3IJPWJZF3CLHBJAKAXWRIRRKV:/data/docker/o'
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : lammpsFoam -parallel
+Date   : Oct 20 2025
+Time   : 17:22:56
+Host   : "autodl-container-68ab428934-c4e3195d"
+PID    : 2594
+Case   : /root/windDEM/251016
+nProcs : 32
+Slaves : 
+31
+(
+"autodl-container-68ab428934-c4e3195d.2595"
+"autodl-container-68ab428934-c4e3195d.2596"
+"autodl-container-68ab428934-c4e3195d.2597"
+"autodl-container-68ab428934-c4e3195d.2598"
+"autodl-container-68ab428934-c4e3195d.2599"
+"autodl-container-68ab428934-c4e3195d.2600"
+"autodl-container-68ab428934-c4e3195d.2601"
+"autodl-container-68ab428934-c4e3195d.2602"
+"autodl-container-68ab428934-c4e3195d.2603"
+"autodl-container-68ab428934-c4e3195d.2604"
+"autodl-container-68ab428934-c4e3195d.2605"
+"autodl-container-68ab428934-c4e3195d.2606"
+"autodl-container-68ab428934-c4e3195d.2607"
+"autodl-container-68ab428934-c4e3195d.2608"
+"autodl-container-68ab428934-c4e3195d.2609"
+"autodl-container-68ab428934-c4e3195d.2610"
+"autodl-container-68ab428934-c4e3195d.2611"
+"autodl-container-68ab428934-c4e3195d.2612"
+"autodl-container-68ab428934-c4e3195d.2613"
+"autodl-container-68ab428934-c4e3195d.2614"
+"autodl-container-68ab428934-c4e3195d.2615"
+"autodl-container-68ab428934-c4e3195d.2621"
+"autodl-container-68ab428934-c4e3195d.2623"
+"autodl-container-68ab428934-c4e3195d.2625"
+"autodl-container-68ab428934-c4e3195d.2626"
+"autodl-container-68ab428934-c4e3195d.2627"
+"autodl-container-68ab428934-c4e3195d.2628"
+"autodl-container-68ab428934-c4e3195d.2632"
+"autodl-container-68ab428934-c4e3195d.2634"
+"autodl-container-68ab428934-c4e3195d.2636"
+"autodl-container-68ab428934-c4e3195d.2637"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+Reading environmentalProperties
+Reading field alpha
+
+Reading field p
+
+Reading field Ub
+
+Setting up place-holder for Ua
+
+Reading transportProperties
+
+*** Max possible alpha set to 0.70 by default
+*** Diffusion steps set to 6 by default
+Calculating face flux field phia
+
+Calculating face flux field phib
+
+Calculating field DDtUa and DDtUb
+
+Calculating field g.h
+
++++++++++++ NOTE +++++++++++++
+Running in REGULAR MODE.
+NO PRESSURE GRADIENT APPLIED!
+++++++++++++++++++++++++++++++
+Selecting incompressible transport model Newtonian
+Selecting turbulence model type LES
+Selecting LES turbulence model Smagorinsky
+Selecting LES delta type cubeRootVol
+SmagorinskyCoeffs
+{
+    Ce              1.048;
+    Ck              0.094;
+}
+
+Constructing particles and cloud
+
+test point: 0
+Total cells: 0. Total particles to add: 0
+LAMMPS (1 Feb 2014)
+Reading Lammps inputfile (in.lammps) ...
+Reading data file ...
+  orthogonal box = (0 0 0) to (0.05 0.02 0.01)
+  8 by 2 by 2 MPI processor grid
+  reading atoms ...
+  26250 atoms
+Timestep specified in Lammps input as follows: 
+ --- timestep 1e-7
+ --- Lammps timestep adjusted from 1e-07 to 1e-07
+Adjusted according to: 10000 solid steps per fluid step.
+Sub-cycle report: 1 sub-cycles with 10000 steps per cycle and 0 extra steps.
+Setting up run ...
+Memory usage per processor = 17.8195 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0            0            0            0            0 4.9482021e-21 
+Loop time of 0.000100262 on 32 procs for 0 steps with 26250 atoms
+Step Temp E_pair E_mol TotEng Press 
+       0            0            0            0            0 4.9482021e-21 
+    2000 1.0303165e+09            0            0 5.6009075e-10 3.7348398e-05 
+    4000 4.0856254e+09            0            0 2.2209884e-09 0.00014965613 
+    6000 9.0171311e+09            0            0 4.9018061e-09 0.00035763501 
+    8000 1.5637457e+10            0            0 8.500684e-09 0.00079385409 
+   10000 2.3859383e+10            0            0 1.2970208e-08 0.0017782518 
+Loop time of 19.6874 on 32 procs for 10000 steps with 26250 atoms
+Finished reading Lammps inputfile.
+FOAM reported # of particles according to Lammps: 26250
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreducecreating new arrays...
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[26] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[28] npArray is: 3255
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[30] npArray is: 0
+execution time is: 19.73
+[0] npArray is: 3255
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[31] npArray is: 0
+getting initial info of particles...
+execution time is: 19.73
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[1] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[2] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[3] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[4] npArray is: 3255
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[5] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[6] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[7] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[8] npArray is: 3360
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[9] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[10] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[12] npArray is: 3255
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[13] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[14] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[15] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[16] npArray is: 3255
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[17] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[18] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[19] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[20] npArray is: 3360
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[21] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[22] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[23] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[24] npArray is: 3255
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[25] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[27] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[29] npArray is: 0
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!constructing particles...
+execution time is: 19.73
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[11] npArray is: 0
+before moving...
+execution time is: 19.73
+execution time is: 19.95
+Step Temp E_pair E_mol TotEng Press 
+   10000 2.3859383e+10            0            0 1.2970208e-08 0.0017782518 
+Loop time of 0.000112519 on 32 procs for 0 steps with 26250 atoms
+++++=A> domain in processor     0
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    29
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     1
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     2
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     3
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     4
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     5
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     6
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     7
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     8
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     9
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    11
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    10
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    12
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    13
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    14
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    15
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    16
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    17
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    18
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    19
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    20
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    21
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    22
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    23
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    24
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    30
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    25
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    26
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    27
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    28
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    31
+ is: x0 0.000000, x1 0.006250, y0 0.000000; y1 0.010000 z0 0.000000, z1 0.005000.initialization finished!
+
+SIMPLE: no convergence criteria found. Calculations will run for 10 steps.
+
+Selecting dragModel : SyamlalOBrien
+Fluid properties dictionary look-up from Drag model: 
+Kinematic Viscosity: nub [0 2 -1 0 0 0 0] 1.5e-05; Density: rhob [1 -3 0 0 0 0 0] 1.225
+diffusion time is: 1e-08
+diffusion time step is: 1.66667e-09
+forces are: truetruefalsefalsefalsefalsefalse(0 0 0)
+particle to eulerian field ...
+smoothing alpha flag on...
+smoothing alpha
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000505326, Final residual = 5.86472e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000501912, Final residual = 5.93072e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000498547, Final residual = 5.99944e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000495231, Final residual = 6.06875e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000491962, Final residual = 6.13866e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000488739, Final residual = 6.20915e-14, No Iterations 3
+smoothing Ua
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00678004, Final residual = 7.89847e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.000982116, Final residual = 9.40213e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000645472, Final residual = 8.39887e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00661524, Final residual = 7.63562e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.000839789, Final residual = 7.20163e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000505185, Final residual = 5.91472e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0065683, Final residual = 7.60028e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.000836955, Final residual = 7.41096e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000501806, Final residual = 5.98287e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00652129, Final residual = 7.56469e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.000834117, Final residual = 7.61946e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000498476, Final residual = 6.05164e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00647437, Final residual = 7.52905e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.000831287, Final residual = 7.82711e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000495193, Final residual = 6.12102e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00642757, Final residual = 7.4934e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.000828466, Final residual = 8.0339e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000491957, Final residual = 6.191e-14, No Iterations 3
+total U solid before: (7.18165e-45 1.45056e-46 -1.01784e-09)
+total U solid after: (1.70765e-32 3.09532e-32 -1.01707e-09)
+smooth Uf...
+smoothing Ub
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+Finished creating particles.
+
+Starting time loop
+
+smoothing A_Source
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00839875, Final residual = 9.96478e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00166776, Final residual = 1.94632e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00103362, Final residual = 1.48606e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00826456, Final residual = 9.71045e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00144234, Final residual = 1.65304e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000912485, Final residual = 1.23455e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00820695, Final residual = 9.65534e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00143177, Final residual = 1.65434e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000903112, Final residual = 1.22541e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00814887, Final residual = 9.59969e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00142134, Final residual = 1.65574e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000893886, Final residual = 1.2165e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00809036, Final residual = 9.54343e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00141124, Final residual = 1.65723e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000884804, Final residual = 1.20781e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00803153, Final residual = 9.48672e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00140148, Final residual = 1.65882e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000875863, Final residual = 1.19934e-13, No Iterations 3
+total F before: (6.40125e-27 -1.02459e-25 -4.69329e-05)
+total F after: (7.31776e-27 -1.00739e-25 -4.68972e-05)
+Time = 0.001
+
+Courant Number mean: 0.06 max: 4.8
+Max Ur Courant Number = 19.2
+Dispersed phase volume fraction = 0.0109956  Min(alpha) = 0  Max(alpha) = 0.631371
+DICPCG:  Solving for p, Initial residual = 1, Final residual = 7.97418e-11, No Iterations 108
+DICPCG:  Solving for p, Initial residual = 0.00416487, Final residual = 6.92983e-11, No Iterations 92
+Moving Particles
+smooth Uf...
+smoothing Ub
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0245745, Final residual = 8.06545e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.0015341, Final residual = 6.06489e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00160174, Final residual = 1.31981e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00178065, Final residual = 1.25478e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00111724, Final residual = 4.38259e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00114297, Final residual = 5.5303e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00176299, Final residual = 1.24208e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00111053, Final residual = 4.37091e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00113646, Final residual = 5.51907e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0017455, Final residual = 1.2295e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.0011039, Final residual = 4.36013e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00113051, Final residual = 5.50814e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00172817, Final residual = 1.21702e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00109732, Final residual = 4.34953e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00112478, Final residual = 5.49752e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00171096, Final residual = 1.20461e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00109081, Final residual = 4.33951e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00111914, Final residual = 5.48681e-12, No Iterations 3
+Time to add particle: 1e+150
+LAMMPS evolving.. 
+Step Temp E_pair E_mol TotEng Press 
+   10000 2.3859383e+10            0            0 1.2970208e-08 0.0017782518 
+   12000 7.1505363e+11            0            0 3.8871058e-07  0.029400759 
+   14000 2.7502536e+12            0            0 1.4950664e-06   0.11145726 
+   16000 6.1064679e+12            0            0 3.3195393e-06   0.24791009 
+   18000 1.0756185e+13            0            0 5.8471737e-06   0.44057238 
+   20000 1.6672071e+13            0            0 9.0631111e-06     0.689091 
+Loop time of 21.0313 on 32 procs for 10000 steps with 26250 atoms
+finished moving the particles in LAMMPS.
+the number of particles in LAMMPS now is: 26250
+data transformed into each processor!
+LAMMPS evolving finished! .. 
+particle to eulerian field ...
+smoothing alpha flag on...
+smoothing alpha
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000514698, Final residual = 5.96951e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000511058, Final residual = 6.02947e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000507472, Final residual = 6.09239e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000503938, Final residual = 6.15598e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000500457, Final residual = 6.22029e-14, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.000497027, Final residual = 6.28658e-14, No Iterations 3
+smoothing Ua
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000798792, Final residual = 1.19616e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00212491, Final residual = 2.8714e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000767674, Final residual = 1.02908e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000640798, Final residual = 8.9094e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00191979, Final residual = 2.39885e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00063325, Final residual = 7.98087e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0006357, Final residual = 8.89615e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00191184, Final residual = 2.39729e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00062828, Final residual = 8.00526e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000630761, Final residual = 8.88403e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00190393, Final residual = 2.39594e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000623377, Final residual = 8.03067e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000626112, Final residual = 8.87303e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00189609, Final residual = 2.39466e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00061854, Final residual = 8.05707e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000621693, Final residual = 8.86313e-14, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00188831, Final residual = 2.39346e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.000613768, Final residual = 8.08446e-14, No Iterations 3
+total U solid before: (2.56167e-08 1.28892e-10 -2.08901e-09)
+total U solid after: (2.55972e-08 1.27286e-10 -2.08743e-09)
+Adding/deleting statistics. adding: 0 deleting: 0 deleting before add: 0
+total volume of particles is: 1.09956e-07
+total (velocity x volume) of particles is: (2.56167e-08 1.28892e-10 -2.08901e-09)
+average velocity of all particles is: (0.232972 0.00117222 -0.0189986)
+smoothing A_Source
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000978855, Final residual = 1.33893e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00240841, Final residual = 3.13538e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.0020258, Final residual = 2.51588e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000845991, Final residual = 1.07731e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00218766, Final residual = 2.66686e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00203542, Final residual = 2.5446e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000837283, Final residual = 1.07188e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00217127, Final residual = 2.65416e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00201428, Final residual = 2.52383e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000828711, Final residual = 1.06665e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00215511, Final residual = 2.64304e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00199309, Final residual = 2.50298e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000820272, Final residual = 1.0616e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00213915, Final residual = 2.63292e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00197187, Final residual = 2.48206e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.000811964, Final residual = 1.05674e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00212331, Final residual = 2.62333e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.0019508, Final residual = 2.46125e-13, No Iterations 3
+total F before: (-0.0622081 -0.000298689 0.000538388)
+total F after: (-0.0621618 -0.00029496 0.000537957)
+ExecutionTime = 41.25 s  ClockTime = 42 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.04, 41.16, 0.03, 0, 0.18, 0) s
+
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0, 0.12, 0, 0, 20.94, 0) s
+
+Time = 0.002
+
+Courant Number mean: 9.53981 max: 9.72312
+Max Ur Courant Number = 19.3859
+Dispersed phase volume fraction = 0.0109956  Min(alpha) = 0  Max(alpha) = 0.635064
+DICPCG:  Solving for p, Initial residual = 0.330422, Final residual = 8.30229e-11, No Iterations 108
+DICPCG:  Solving for p, Initial residual = 0.417938, Final residual = 7.84977e-11, No Iterations 108
+Moving Particles
+smooth Uf...
+smoothing Ub
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00248049, Final residual = 3.05547e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.003206, Final residual = 9.17397e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00327521, Final residual = 5.4172e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00114486, Final residual = 1.85631e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00311196, Final residual = 5.55581e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00334266, Final residual = 3.49555e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00113143, Final residual = 1.83587e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.0030845, Final residual = 5.51435e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00331886, Final residual = 3.47464e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00111832, Final residual = 1.81576e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00305744, Final residual = 5.47338e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00329526, Final residual = 3.45389e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00110559, Final residual = 1.79593e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00303063, Final residual = 5.43282e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00327182, Final residual = 3.4333e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00109313, Final residual = 1.77638e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00300406, Final residual = 5.39297e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00324885, Final residual = 3.413e-12, No Iterations 3
+Time to add particle: 1e+150
+LAMMPS evolving.. 
+Step Temp E_pair E_mol TotEng Press 
+   20000 1.6672071e+13            0            0 9.0631111e-06     0.689091 
+WARNING: Lost atoms: original 26250 current 25890 (thermo.cpp:401)
+   22000 9.6533154e+16            0            0  0.052476425    3499.8024 
+   24000 2.9107547e+17            0            0   0.15823165    10549.867 
+   26000 1.885407e+17            0            0   0.10249268    6833.2184 
+   28000 8.7776233e+16            0            0  0.047716072    3181.5212 
+   30000 5.5446426e+16            0            0  0.030141253    2009.7877 
+Loop time of 22.4356 on 32 procs for 10000 steps with 10655 atoms
+finished moving the particles in LAMMPS.
+the number of particles in LAMMPS now is: 10655
+data transformed into each processor!
+LAMMPS evolving finished! .. 
+particle to eulerian field ...
+smoothing alpha flag on...
+smoothing alpha
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00268379, Final residual = 2.88055e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00266272, Final residual = 2.84903e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00263821, Final residual = 2.81441e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00261369, Final residual = 2.78036e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00258939, Final residual = 2.74732e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00256523, Final residual = 2.71484e-12, No Iterations 3
+smoothing Ua
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00352548, Final residual = 5.87273e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00351283, Final residual = 3.67044e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00383064, Final residual = 3.60382e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00352454, Final residual = 7.42423e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00385367, Final residual = 5.08609e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00416765, Final residual = 5.05867e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00349287, Final residual = 7.3852e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00383074, Final residual = 5.05132e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00413873, Final residual = 5.01778e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00345818, Final residual = 7.34063e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00380331, Final residual = 5.01078e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00410346, Final residual = 4.9694e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00342262, Final residual = 7.29512e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00377128, Final residual = 4.9642e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00406382, Final residual = 4.91602e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00338693, Final residual = 7.24921e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.0037371, Final residual = 4.91475e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00402296, Final residual = 4.86188e-11, No Iterations 3
+total U solid before: (-3.80302e-07 7.78225e-08 4.14415e-08)
+total U solid after: (-3.79982e-07 7.77569e-08 4.1293e-08)
+Adding/deleting statistics. adding: 0 deleting: 0 deleting before add: 0
+total volume of particles is: 1.09922e-07
+total (velocity x volume) of particles is: (-3.80302e-07 7.78225e-08 4.14415e-08)
+average velocity of all particles is: (-3.45974 0.707978 0.377007)
+Warning: Unphysical large solid volume fraction 40.4943
+A cap of 0.7 is applied.
+smoothing A_Source
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00274978, Final residual = 7.98317e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.0036987, Final residual = 6.55061e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00324082, Final residual = 6.57662e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00271905, Final residual = 9.00695e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00366107, Final residual = 7.63908e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00321776, Final residual = 7.87254e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00269053, Final residual = 8.94139e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00362747, Final residual = 7.5641e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00318544, Final residual = 7.76911e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00266085, Final residual = 8.87425e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00359446, Final residual = 7.49159e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.0031532, Final residual = 7.66989e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00263094, Final residual = 8.80683e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00356174, Final residual = 7.42077e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00312134, Final residual = 7.57531e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00260109, Final residual = 8.73916e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00352926, Final residual = 7.35113e-13, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00308981, Final residual = 7.48354e-13, No Iterations 3
+total F before: (1.49594 -0.693823 -0.473024)
+total F after: (1.49491 -0.685269 -0.473077)
+ExecutionTime = 63.92 s  ClockTime = 64 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.11, 63.73, 0.06, 0, 0.25, 0.13) s
+
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0, 0.12, 0, 0, 43.33, 0) s
+
+Time = 0.003
+
+Courant Number mean: 15.0701 max: 161.179
+Max Ur Courant Number = 883.329
+Dispersed phase volume fraction = 0.00472487  Min(alpha) = 0  Max(alpha) = 0.7
+DICPCG:  Solving for p, Initial residual = 0.924814, Final residual = 8.19082e-11, No Iterations 111
+DICPCG:  Solving for p, Initial residual = 0.409851, Final residual = 7.83564e-11, No Iterations 108
+Moving Particles
+smooth Uf...
+smoothing Ub
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00401369, Final residual = 1.52019e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00416314, Final residual = 2.54222e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00397588, Final residual = 1.99354e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00381123, Final residual = 1.00474e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00399988, Final residual = 1.94741e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00388193, Final residual = 1.84188e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00377595, Final residual = 9.9906e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00396879, Final residual = 1.9356e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00385367, Final residual = 1.82671e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0037412, Final residual = 9.93429e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00393874, Final residual = 1.92388e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00382588, Final residual = 1.81165e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0037069, Final residual = 9.87895e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00390944, Final residual = 1.9122e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.0037982, Final residual = 1.79666e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00367316, Final residual = 9.82403e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00388026, Final residual = 1.90064e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00377064, Final residual = 1.78178e-11, No Iterations 3
+Time to add particle: 1e+150
+Incoming drag not consistent with local particle number.
+Incoming drag is: 17527, local particle number is:  1940.LAMMPS evolving.. 
+Step Temp E_pair E_mol TotEng Press 
+   30000 5.5446426e+16            0            0  0.030141253    2009.7877 
+   32000 1.5080712e+17            0            0  0.081980317    5465.6775 
+   34000 4.1830082e+16            0            0  0.022739267    1516.0707 
+   36000 1.623316e+16            0            0 0.0088245146    588.36233 
+   38000 1.2189584e+16            0            0 0.0066263847    441.78501 
+   40000 8.8395974e+15            0            0 0.0048052969    320.36679 
+Loop time of 4.90298 on 32 procs for 10000 steps with 3347 atoms
+finished moving the particles in LAMMPS.
+the number of particles in LAMMPS now is: 3347
+data transformed into each processor!
+LAMMPS evolving finished! .. 
+particle to eulerian field ...
+smoothing alpha flag on...
+smoothing alpha
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00304424, Final residual = 3.60875e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00302603, Final residual = 3.57134e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00300002, Final residual = 3.52537e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00297362, Final residual = 3.47968e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.0029476, Final residual = 3.43508e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00292185, Final residual = 3.39135e-12, No Iterations 3
+smoothing Ua
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00553352, Final residual = 6.21085e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00322685, Final residual = 5.13642e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.0030513, Final residual = 5.3729e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00562583, Final residual = 7.20323e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00328137, Final residual = 5.27753e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00299631, Final residual = 4.40897e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00557445, Final residual = 7.12822e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325783, Final residual = 5.23228e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00297114, Final residual = 4.3699e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00551853, Final residual = 7.04773e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00323402, Final residual = 5.1867e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00294613, Final residual = 4.33118e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00546089, Final residual = 6.96474e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00321021, Final residual = 5.1413e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00292104, Final residual = 4.29227e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00540246, Final residual = 6.88065e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00318608, Final residual = 5.09544e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00289582, Final residual = 4.25321e-11, No Iterations 3
+total U solid before: (1.64411e-08 8.1672e-08 6.74494e-08)
+total U solid after: (1.6405e-08 8.14987e-08 6.71442e-08)
+Adding/deleting statistics. adding: 0 deleting: 0 deleting before add: 0
+total volume of particles is: 1.09474e-07
+total (velocity x volume) of particles is: (1.64411e-08 8.1672e-08 6.74494e-08)
+average velocity of all particles is: (0.150183 0.74604 0.616122)
+Warning: Unphysical large solid volume fraction 59.0485
+A cap of 0.7 is applied.
+smoothing A_Source
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00286721, Final residual = 5.15138e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00339688, Final residual = 1.99139e-13, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00286698, Final residual = 7.55351e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00285017, Final residual = 5.39652e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00337607, Final residual = 1.98427e-13, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00284995, Final residual = 7.963e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00282527, Final residual = 5.45617e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00334592, Final residual = 1.96869e-13, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00282504, Final residual = 7.99661e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00280007, Final residual = 5.5509e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00331541, Final residual = 1.95705e-13, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00279985, Final residual = 8.06538e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00277522, Final residual = 5.68304e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00328531, Final residual = 1.94975e-13, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.002775, Final residual = 8.17022e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00275061, Final residual = 5.85443e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325549, Final residual = 1.94635e-13, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275039, Final residual = 8.31058e-14, No Iterations 2
+total F before: (-228254 24507 25454.2)
+total F after: (-228254 24196.8 25454.2)
+ExecutionTime = 69.05 s  ClockTime = 69 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.17, 68.78, 0.08, 0, 0.33, 0.17) s
+
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0, 0.13, 0.01, 0, 48.23, 0) s
+
+Time = 0.004
+
+Courant Number mean: 46.3545 max: 6144.3
+Max Ur Courant Number = 20481.1
+Dispersed phase volume fraction = 0.00170844  Min(alpha) = 0  Max(alpha) = 0.7
+DICPCG:  Solving for p, Initial residual = 0.997302, Final residual = 8.2894e-11, No Iterations 126
+DICPCG:  Solving for p, Initial residual = 0.0951446, Final residual = 6.95587e-11, No Iterations 116
+Moving Particles
+smooth Uf...
+smoothing Ub
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00187159, Final residual = 4.87169e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00142487, Final residual = 9.03736e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00158176, Final residual = 5.18991e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00171284, Final residual = 2.28915e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00124951, Final residual = 4.93614e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00143726, Final residual = 2.73711e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00169249, Final residual = 2.27343e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00123989, Final residual = 4.89548e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00142417, Final residual = 2.71211e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00167245, Final residual = 2.25789e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00123039, Final residual = 4.85516e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00141127, Final residual = 2.68772e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0016527, Final residual = 2.24265e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00122099, Final residual = 4.81514e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00139843, Final residual = 2.66343e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00163322, Final residual = 2.22765e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00121171, Final residual = 4.77542e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.0013855, Final residual = 2.63894e-12, No Iterations 3
+Time to add particle: 1e+150
+Incoming drag not consistent with local particle number.
+Incoming drag is: 22811, local particle number is:    23.LAMMPS evolving.. 
+Step Temp E_pair E_mol TotEng Press 
+   40000 8.8395974e+15            0            0 0.0048052969    320.36679 
+   42000 1.5942456e+16            0            0 0.0086664845    577.77548 
+   44000 7.2458291e+15            0            0 0.0039389079    262.59795 
+   46000 3.6813456e+15            0            0 0.0020012177    133.41641 
+   48000 2.6167089e+15            0            0 0.0014224701    94.831985 
+   50000 2.0217227e+15            0            0 0.0010990294    73.269166 
+Loop time of 1.60725 on 32 procs for 10000 steps with 672 atoms
+finished moving the particles in LAMMPS.
+the number of particles in LAMMPS now is: 672
+data transformed into each processor!
+LAMMPS evolving finished! .. 
+particle to eulerian field ...
+smoothing alpha flag on...
+smoothing alpha
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00296131, Final residual = 1.28656e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.0029434, Final residual = 1.27202e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00291739, Final residual = 1.25425e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00289108, Final residual = 1.23653e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00286513, Final residual = 1.21922e-12, No Iterations 3
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00283945, Final residual = 1.20222e-12, No Iterations 3
+smoothing Ua
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00479296, Final residual = 6.30112e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.0060862, Final residual = 8.85393e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00453956, Final residual = 6.06515e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00500698, Final residual = 7.71194e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.0064272, Final residual = 2.79972e-13, No Iterations 4
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00473634, Final residual = 6.74476e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00497733, Final residual = 7.65922e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00637814, Final residual = 9.96241e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00470657, Final residual = 6.68863e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00494225, Final residual = 7.59839e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00632037, Final residual = 9.85816e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00467418, Final residual = 6.62906e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00490396, Final residual = 7.5326e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00625638, Final residual = 9.74439e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.004639, Final residual = 6.56564e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00486353, Final residual = 7.46355e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00618903, Final residual = 9.6253e-11, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00460127, Final residual = 6.49869e-11, No Iterations 3
+total U solid before: (-2.07658e-08 4.62812e-09 8.09596e-09)
+total U solid after: (-2.07335e-08 4.62294e-09 8.06981e-09)
+Adding/deleting statistics. adding: 0 deleting: 0 deleting before add: 0
+total volume of particles is: 1.0947e-07
+total (velocity x volume) of particles is: (-2.07658e-08 4.62812e-09 8.09596e-09)
+average velocity of all particles is: (-0.189695 0.0422776 0.0739561)
+Warning: Unphysical large solid volume fraction 65.9774
+A cap of 0.7 is applied.
+smoothing A_Source
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0028672, Final residual = 3.03664e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00339683, Final residual = 3.1856e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00286697, Final residual = 3.03622e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00285017, Final residual = 3.11093e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00337602, Final residual = 3.24868e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00284993, Final residual = 3.11049e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00282526, Final residual = 3.21195e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00334587, Final residual = 3.33826e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00282503, Final residual = 3.21149e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00280007, Final residual = 3.34743e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00331537, Final residual = 3.46266e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00279983, Final residual = 3.34697e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00277521, Final residual = 3.51786e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00328526, Final residual = 3.62254e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00277498, Final residual = 3.51738e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00275061, Final residual = 3.72288e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325544, Final residual = 3.81767e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275038, Final residual = 3.72238e-14, No Iterations 2
+total F before: (3.40798e+10 -2.931e+10 -4.88699e+10)
+total F after: (3.40798e+10 -2.8939e+10 -4.88699e+10)
+ExecutionTime = 70.89 s  ClockTime = 71 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.24, 70.52, 0.11, 0, 0.43, 0.2) s
+
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.01, 0.14, 0.01, 0, 49.83, 0) s
+
+Time = 0.005
+
+Courant Number mean: 16138.7 max: 4.3689e+06
+Max Ur Courant Number = 1.14941e+07
+Dispersed phase volume fraction = 0.000598232  Min(alpha) = 0  Max(alpha) = 0.7
+DICPCG:  Solving for p, Initial residual = 0.962811, Final residual = 6.99925e-11, No Iterations 120
+DICPCG:  Solving for p, Initial residual = 9.61095e-05, Final residual = 8.02766e-11, No Iterations 92
+Moving Particles
+smooth Uf...
+smoothing Ub
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00130838, Final residual = 5.31723e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00198749, Final residual = 7.38036e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00231445, Final residual = 4.43853e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00116281, Final residual = 2.9851e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00189059, Final residual = 4.96182e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00223735, Final residual = 3.09134e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00115208, Final residual = 2.96036e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00187408, Final residual = 4.91923e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00222091, Final residual = 3.06091e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00114151, Final residual = 2.93577e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00185773, Final residual = 4.87706e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00220483, Final residual = 3.03092e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0011311, Final residual = 2.91135e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00184146, Final residual = 4.83498e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00218896, Final residual = 3.0013e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00112084, Final residual = 2.88702e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.0018253, Final residual = 4.79306e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00217326, Final residual = 2.97204e-12, No Iterations 3
+Time to add particle: 1e+150
+Incoming drag not consistent with local particle number.
+Incoming drag is: 25462, local particle number is:     0.LAMMPS evolving.. 
+Step Temp E_pair E_mol TotEng Press 
+   50000 2.0217227e+15            0            0 0.0010990294    73.269166 
+   52000            0            0            0            0            0 
+   54000            0            0            0            0            0 
+   56000            0            0            0            0            0 
+   58000            0            0            0            0            0 
+   60000            0            0            0            0            0 
+Loop time of 0.791715 on 32 procs for 10000 steps with 0 atoms
+finished moving the particles in LAMMPS.
+the number of particles in LAMMPS now is: 0
+data transformed into each processor!
+LAMMPS evolving finished! .. 
+particle to eulerian field ...
+smoothing alpha flag on...
+smoothing alpha
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.0028672, Final residual = 3.03624e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00285017, Final residual = 3.1105e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00282526, Final residual = 3.21151e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00280007, Final residual = 3.347e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00277521, Final residual = 3.51743e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00275061, Final residual = 3.72244e-14, No Iterations 2
+smoothing Ua
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+total U solid before: (0 0 0)
+total U solid after: (0 0 0)
+Adding/deleting statistics. adding: 0 deleting: 0 deleting before add: 0
+total volume of particles is: 1.0947e-07
+total (velocity x volume) of particles is: (0 0 0)
+average velocity of all particles is: (0 0 0)
+Warning: Unphysical large solid volume fraction 67.7187
+A cap of 0.7 is applied.
+smoothing A_Source
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0028672, Final residual = 3.03624e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00339683, Final residual = 3.18509e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00286697, Final residual = 3.03599e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00285017, Final residual = 3.1105e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00337602, Final residual = 3.24811e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00284993, Final residual = 3.11024e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00282526, Final residual = 3.21151e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00334587, Final residual = 3.33769e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00282503, Final residual = 3.21125e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00280007, Final residual = 3.347e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00331537, Final residual = 3.4621e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00279983, Final residual = 3.34672e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00277521, Final residual = 3.51743e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00328526, Final residual = 3.62199e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00277498, Final residual = 3.51713e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00275061, Final residual = 3.72244e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325544, Final residual = 3.81712e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275038, Final residual = 3.72213e-14, No Iterations 2
+total F before: (-5.36843e+16 3.32732e+15 3.26739e+16)
+total F after: (-5.36843e+16 3.2852e+15 3.26739e+16)
+ExecutionTime = 71.86 s  ClockTime = 72 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.3, 71.4, 0.14, 0, 0.48, 0.21) s
+
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.01, 0.16, 0.02, 0, 50.62, 0) s
+
+Time = 0.006
+
+Courant Number mean: 1.30282e+07 max: 2.81633e+09
+Max Ur Courant Number = 9.25769e+09
+Dispersed phase volume fraction = 0.000319331  Min(alpha) = 0  Max(alpha) = 0.7
+DICPCG:  Solving for p, Initial residual = 0.848978, Final residual = 6.73224e-11, No Iterations 118
+DICPCG:  Solving for p, Initial residual = 0.000193296, Final residual = 9.53178e-11, No Iterations 90
+Moving Particles
+smooth Uf...
+smoothing Ub
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00174105, Final residual = 5.81379e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00150739, Final residual = 9.84196e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00220744, Final residual = 4.43246e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0015278, Final residual = 2.36205e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00131265, Final residual = 6.3449e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00205168, Final residual = 2.61886e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0015089, Final residual = 2.34204e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00130095, Final residual = 6.28041e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00203725, Final residual = 2.59692e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00149019, Final residual = 2.32225e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00128939, Final residual = 6.21692e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00202335, Final residual = 2.57542e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00147176, Final residual = 2.30284e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00127797, Final residual = 6.15539e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00201048, Final residual = 2.55451e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00145361, Final residual = 2.28372e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00126678, Final residual = 6.09461e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00199803, Final residual = 2.53435e-12, No Iterations 3
+Time to add particle: 1e+150
+Incoming drag not consistent with local particle number.
+Incoming drag is: 26134, local particle number is:     0.LAMMPS evolving.. 
+Step Temp E_pair E_mol TotEng Press 
+   60000            0            0            0            0            0 
+   62000            0            0            0            0            0 
+   64000            0            0            0            0            0 
+   66000            0            0            0            0            0 
+   68000            0            0            0            0            0 
+   70000            0            0            0            0            0 
+Loop time of 0.737566 on 32 procs for 10000 steps with 0 atoms
+finished moving the particles in LAMMPS.
+the number of particles in LAMMPS now is: 0
+data transformed into each processor!
+LAMMPS evolving finished! .. 
+particle to eulerian field ...
+smoothing alpha flag on...
+smoothing alpha
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.0028672, Final residual = 3.03624e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00285017, Final residual = 3.1105e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00282526, Final residual = 3.21151e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00280007, Final residual = 3.347e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00277521, Final residual = 3.51743e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00275061, Final residual = 3.72244e-14, No Iterations 2
+smoothing Ua
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+total U solid before: (0 0 0)
+total U solid after: (0 0 0)
+Adding/deleting statistics. adding: 0 deleting: 0 deleting before add: 0
+total volume of particles is: 1.0947e-07
+total (velocity x volume) of particles is: (0 0 0)
+average velocity of all particles is: (0 0 0)
+Warning: Unphysical large solid volume fraction 67.7187
+A cap of 0.7 is applied.
+smoothing A_Source
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0028672, Final residual = 3.03624e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00339683, Final residual = 3.18509e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00286697, Final residual = 3.03599e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00285017, Final residual = 3.1105e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00337602, Final residual = 3.24811e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00284993, Final residual = 3.11024e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00282526, Final residual = 3.21151e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00334587, Final residual = 3.33769e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00282503, Final residual = 3.21125e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00280007, Final residual = 3.347e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00331537, Final residual = 3.4621e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00279983, Final residual = 3.34672e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00277521, Final residual = 3.51743e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00328526, Final residual = 3.62199e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00277498, Final residual = 3.51713e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00275061, Final residual = 3.72244e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325544, Final residual = 3.81712e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275038, Final residual = 3.72213e-14, No Iterations 2
+total F before: (3.0231e+22 -5.36974e+21 -8.51955e+22)
+total F after: (3.0231e+22 -5.30177e+21 -8.51955e+22)
+ExecutionTime = 72.75 s  ClockTime = 73 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.36, 72.2, 0.17, 0, 0.53, 0.21) s
+
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.01, 0.16, 0.03, 0, 51.36, 0) s
+
+Time = 0.007
+
+Courant Number mean: 1.56277e+10 max: 3.44416e+12
+Max Ur Courant Number = 8.80126e+12
+Dispersed phase volume fraction = 0.000319331  Min(alpha) = 0  Max(alpha) = 0.7
+DICPCG:  Solving for p, Initial residual = 0.991981, Final residual = 7.17335e-11, No Iterations 119
+DICPCG:  Solving for p, Initial residual = 0.000143401, Final residual = 7.58068e-11, No Iterations 90
+Moving Particles
+smooth Uf...
+smoothing Ub
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00147442, Final residual = 7.89685e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00153667, Final residual = 7.80891e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00232199, Final residual = 7.14611e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0012674, Final residual = 4.6036e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00142348, Final residual = 6.17853e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00223476, Final residual = 5.82319e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00125309, Final residual = 4.56243e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00140722, Final residual = 6.11139e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00221801, Final residual = 5.77203e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00123923, Final residual = 4.52254e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00139117, Final residual = 6.04494e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.0022014, Final residual = 5.72126e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00122591, Final residual = 4.48301e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00137534, Final residual = 5.97943e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00218492, Final residual = 5.67102e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00121279, Final residual = 4.44389e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00135973, Final residual = 5.91476e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00216857, Final residual = 5.62115e-12, No Iterations 3
+Time to add particle: 1e+150
+Incoming drag not consistent with local particle number.
+Incoming drag is: 26134, local particle number is:     0.LAMMPS evolving.. 
+Step Temp E_pair E_mol TotEng Press 
+   70000            0            0            0            0            0 
+   72000            0            0            0            0            0 
+   74000            0            0            0            0            0 
+   76000            0            0            0            0            0 
+   78000            0            0            0            0            0 
+   80000            0            0            0            0            0 
+Loop time of 0.757429 on 32 procs for 10000 steps with 0 atoms
+finished moving the particles in LAMMPS.
+the number of particles in LAMMPS now is: 0
+data transformed into each processor!
+LAMMPS evolving finished! .. 
+particle to eulerian field ...
+smoothing alpha flag on...
+smoothing alpha
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.0028672, Final residual = 3.03624e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00285017, Final residual = 3.1105e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00282526, Final residual = 3.21151e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00280007, Final residual = 3.347e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00277521, Final residual = 3.51743e-14, No Iterations 2
+DICPCG:  Solving for tempDiffScalar, Initial residual = 0.00275061, Final residual = 3.72244e-14, No Iterations 2
+smoothing Ua
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0, Final residual = 0, No Iterations 0
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0, Final residual = 0, No Iterations 0
+total U solid before: (0 0 0)
+total U solid after: (0 0 0)
+Adding/deleting statistics. adding: 0 deleting: 0 deleting before add: 0
+total volume of particles is: 1.0947e-07
+total (velocity x volume) of particles is: (0 0 0)
+average velocity of all particles is: (0 0 0)
+Warning: Unphysical large solid volume fraction 67.7187
+A cap of 0.7 is applied.
+smoothing A_Source
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.0028672, Final residual = 3.03624e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00339683, Final residual = 3.18509e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00286697, Final residual = 3.03599e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00285017, Final residual = 3.1105e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00337602, Final residual = 3.24811e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00284993, Final residual = 3.11024e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00282526, Final residual = 3.21151e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00334587, Final residual = 3.33769e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00282503, Final residual = 3.21125e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00280007, Final residual = 3.347e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00331537, Final residual = 3.4621e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00279983, Final residual = 3.34672e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00277521, Final residual = 3.51743e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00328526, Final residual = 3.62199e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00277498, Final residual = 3.51713e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00275061, Final residual = 3.72244e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325544, Final residual = 3.81712e-14, No Iterations 2
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275038, Final residual = 3.72213e-14, No Iterations 2
+total F before: (-1.37078e+28 -4.27112e+27 1.49891e+28)
+total F after: (-1.37078e+28 -4.21706e+27 1.49891e+28)
+ExecutionTime = 73.68 s  ClockTime = 74 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.43, 73.03, 0.2, 0, 0.59, 0.22) s
+
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.01, 0.17, 0.03, 0, 52.12, 0) s
+
+Time = 0.008
+
+Courant Number mean: 2.44939e+13 max: 4.54556e+15
+Max Ur Courant Number = 1.15979e+16
+Dispersed phase volume fraction = 0.000319331  Min(alpha) = 0  Max(alpha) = 0.7
+DICPCG:  Solving for p, Initial residual = 0.839189, Final residual = 7.49712e-11, No Iterations 120
+DICPCG:  Solving for p, Initial residual = 0.000246654, Final residual = 9.22544e-11, No Iterations 88
+Moving Particles
+smooth Uf...
+smoothing Ub
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00141241, Final residual = 5.69345e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00150481, Final residual = 9.09398e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00201355, Final residual = 5.42398e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00122183, Final residual = 2.47021e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00137471, Final residual = 6.80965e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00189519, Final residual = 3.64537e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00120626, Final residual = 2.44508e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00136095, Final residual = 6.74119e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00187856, Final residual = 3.61442e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00119095, Final residual = 2.42031e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00134738, Final residual = 6.67351e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00186212, Final residual = 3.58377e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00117589, Final residual = 2.39617e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00133486, Final residual = 6.6066e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00184587, Final residual = 3.55345e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorx, Initial residual = 0.00116104, Final residual = 2.37279e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00132264, Final residual = 6.54127e-12, No Iterations 3
+DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00182981, Final residual = 3.52355e-12, No Iterations 3
+[0] #0  Foam::error::printStack(Foam::Ostream&) at ??:?
+[0] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[0] #2  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+[0] #3  Foam::divide(Foam::Field<double>&, Foam::UList<double> const&, Foam::UList<double> const&) at ??:?
+[0] #4  Foam::operator/(Foam::tmp<Foam::Field<double> > const&, Foam::tmp<Foam::Field<double> > const&) at ??:?
+[0] #5  Foam::SyamlalOBrien::Jd(Foam::Field<double> const&) const at ??:?
+[0] #6  ? at ??:?
+[0] #7  ? at ??:?
+[0] #8  ? at ??:?
+[0] #9  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+[0] #10  ? at ??:?
+[autodl-container-68ab428934-c4e3195d:02594] *** Process received signal ***
+[autodl-container-68ab428934-c4e3195d:02594] Signal: Floating point exception (8)
+[autodl-container-68ab428934-c4e3195d:02594] Signal code:  (-6)
+[autodl-container-68ab428934-c4e3195d:02594] Failing at address: 0xa22
+[autodl-container-68ab428934-c4e3195d:02594] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x354c0)[0x7f947bd534c0]
+[autodl-container-68ab428934-c4e3195d:02594] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0x38)[0x7f947bd53438]
+[autodl-container-68ab428934-c4e3195d:02594] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x354c0)[0x7f947bd534c0]
+[autodl-container-68ab428934-c4e3195d:02594] [ 3] /root/OpenFOAM/OpenFOAM-2.4.0/platforms/linux64GccDPOpt/lib/libOpenFOAM.so(_ZN4Foam6divideERNS_5FieldIdEERKNS_5UListIdEES6_+0x125)[0x7f947cd60ca5]
+[autodl-container-68ab428934-c4e3195d:02594] [ 4] /root/OpenFOAM/OpenFOAM-2.4.0/platforms/linux64GccDPOpt/lib/libOpenFOAM.so(_ZN4FoamdvERKNS_3tmpINS_5FieldIdEEEES5_+0x95)[0x7f947cd6c825]
+[autodl-container-68ab428934-c4e3195d:02594] [ 5] /root/OpenFOAM/root-2.4.0/platforms/linux64GccDPOpt/lib/libLagrangianInterfacialModels.so(_ZNK4Foam13SyamlalOBrien2JdERKNS_5FieldIdEE+0xe11)[0x7f94811e8a61]
+[autodl-container-68ab428934-c4e3195d:02594] [ 6] lammpsFoam[0x4ed7ee]
+[autodl-container-68ab428934-c4e3195d:02594] [ 7] lammpsFoam[0x4f45ad]
+[autodl-container-68ab428934-c4e3195d:02594] [ 8] lammpsFoam[0x4412bb]
+[autodl-container-68ab428934-c4e3195d:02594] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f947bd3e840]
+[autodl-container-68ab428934-c4e3195d:02594] [10] lammpsFoam[0x446849]
+[autodl-container-68ab428934-c4e3195d:02594] *** End of error message ***
+[autodl-container-68ab428934-c4e3195d][[56477,1],16][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[autodl-container-68ab428934-c4e3195d][[56477,1],1][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[autodl-container-68ab428934-c4e3195d][[56477,1],2][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[autodl-container-68ab428934-c4e3195d][[56477,1],8][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 2594 on node autodl-container-68ab428934-c4e3195d exited on signal 8 (Floating point exception).
+--------------------------------------------------------------------------
