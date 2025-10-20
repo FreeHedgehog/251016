@@ -6,8 +6,8 @@ newton off
 #processors 16 4 2
 
 communicate single vel yes
-read_data initial_bed.lammps
-#read_data IC_uniform_100.in
+read_data atoms_26250.in
+
 
 neighbor 5.0e-4 bin
 neigh_modify every 1 delay 0 check yes

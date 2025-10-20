@@ -22,7 +22,7 @@ FoamFile
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-continousPhaseName  air;
+continuousPhaseName  air;
 
 rho.air           1.225;
 
