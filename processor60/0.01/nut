@@ -1,0 +1,166 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0.01";
+    object      nut;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -1 0 0 0 0];
+
+internalField   nonuniform List<scalar> 
+40
+(
+60796.2
+56082.3
+72878.4
+41612.7
+43298.2
+36178
+23694.2
+27253.5
+25983.8
+22741.4
+17414
+13622.9
+15396.9
+12425.6
+10021
+11622.2
+13028
+16109.2
+15887.2
+12480.6
+31611.8
+25944.5
+27209.7
+24514
+32363.3
+37493.7
+23326.8
+21903.1
+13994.6
+18858.7
+16346.8
+10676
+11189.6
+9591.15
+6917.56
+9345.93
+5908.93
+4501.4
+5398.32
+7026.25
+)
+;
+
+boundaryField
+{
+    inlet
+    {
+        type            calculated;
+        value           nonuniform 0();
+    }
+    outlet
+    {
+        type            calculated;
+        value           nonuniform 0();
+    }
+    bottom
+    {
+        type            calculated;
+        value           nonuniform List<scalar> 
+20
+(
+7.57002e-20
+3.61335e-20
+2.66927e-20
+2.25021e-20
+6.6748e-20
+2.51298e-20
+2.4495e-20
+2.25199e-20
+7.66315e-20
+2.83054e-20
+2.66339e-20
+2.23891e-20
+5.74182e-20
+2.94819e-20
+2.25436e-20
+2.03418e-20
+5.6168e-20
+2.90145e-20
+1.80537e-20
+1.59108e-20
+)
+;
+    }
+    top
+    {
+        type            symmetryPlane;
+    }
+    side1
+    {
+        type            symmetryPlane;
+    }
+    side2
+    {
+        type            symmetryPlane;
+    }
+    procBoundary60to44
+    {
+        type            processor;
+        value           nonuniform List<scalar> 10(77425.8 69257.7 84521.2 63194.8 57497.5 37373.2 32884.2 35976.6 39338.4 30105.6);
+    }
+    procBoundary60to59
+    {
+        type            processor;
+        value           nonuniform List<scalar> 8(75050.4 56959.7 27869.3 14736.5 31958 49184.4 16058 11063);
+    }
+    procBoundary60to61
+    {
+        type            processor;
+        value           nonuniform List<scalar> 8(35460.4 17056.6 10115.6 6990.74 26084.8 13094.3 5002.1 3931.53);
+    }
+    procBoundary60to124
+    {
+        type            processor;
+        value           nonuniform List<scalar> 
+20
+(
+34195.8
+26725.4
+23576.9
+24398.2
+24737.4
+23815.4
+17459.2
+18561
+17402.3
+16546
+4007.6
+3916.54
+8029.34
+7842.49
+5641.64
+4010.22
+4963
+6309.65
+8362.02
+7132.64
+)
+;
+    }
+}
+
+
+// ************************************************************************* //

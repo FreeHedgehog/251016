@@ -1,0 +1,145 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0.01";
+    object      alpha;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 0 0 0 0];
+
+internalField   nonuniform List<scalar> 
+40
+(
+1.23216e-68
+6.9638e-71
+3.99815e-73
+2.30396e-75
+1.32337e-77
+9.6083e-71
+5.44425e-73
+3.12568e-75
+1.80685e-77
+1.04612e-79
+6.28307e-73
+3.6477e-75
+2.13936e-77
+1.26129e-79
+7.44346e-82
+3.60099e-75
+2.14562e-77
+1.28998e-79
+7.78772e-82
+4.70198e-84
+4.63263e-71
+2.64068e-73
+1.52917e-75
+8.9204e-78
+5.20842e-80
+3.83952e-73
+2.18855e-75
+1.25011e-77
+7.16413e-80
+4.117e-82
+2.6061e-75
+1.52492e-77
+8.88636e-80
+5.16815e-82
+3.00277e-84
+1.53814e-77
+9.24103e-80
+5.51947e-82
+3.28315e-84
+1.94689e-86
+)
+;
+
+boundaryField
+{
+    inlet
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    bottom
+    {
+        type            fixedValue;
+        value           nonuniform 0();
+    }
+    top
+    {
+        type            symmetryPlane;
+    }
+    side1
+    {
+        type            symmetryPlane;
+    }
+    side2
+    {
+        type            symmetryPlane;
+    }
+    procBoundary85to21
+    {
+        type            processor;
+        value           nonuniform List<scalar> 
+20
+(
+1.05904e-65
+5.82139e-68
+3.2514e-70
+1.8299e-72
+1.03127e-74
+8.43589e-68
+4.64805e-70
+2.55786e-72
+1.40796e-74
+7.75444e-77
+5.51391e-70
+3.12657e-72
+1.75862e-74
+9.82849e-77
+5.46495e-79
+3.14253e-72
+1.83182e-74
+1.05747e-76
+6.05132e-79
+3.43588e-81
+)
+;
+    }
+    procBoundary85to69
+    {
+        type            processor;
+        value           nonuniform List<scalar> 10(5.60167e-66 3.06082e-68 1.69136e-70 9.39915e-73 5.22965e-75 2.16344e-68 1.19388e-70 6.56258e-73 3.59808e-75 1.96891e-77);
+    }
+    procBoundary85to84
+    {
+        type            processor;
+        value           nonuniform List<scalar> 8(7.09738e-66 4.91805e-68 3.09257e-70 1.73801e-72 2.46217e-68 1.67353e-70 1.07215e-72 6.18772e-75);
+    }
+    procBoundary85to86
+    {
+        type            processor;
+        value           nonuniform List<scalar> 8(1.58819e-80 1.39399e-82 1.02299e-84 6.55857e-87 6.75831e-83 6.20036e-85 4.67635e-87 3.06913e-89);
+    }
+    procBoundary85to101
+    {
+        type            processor;
+        value           nonuniform List<scalar> 10(3.30147e-78 2.08555e-80 1.33243e-82 8.48127e-85 5.34202e-87 1.32608e-80 8.45564e-83 5.50206e-85 3.59456e-87 2.3348e-89);
+    }
+}
+
+
+// ************************************************************************* //

@@ -1,0 +1,92 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    location    "0.01";
+    object      A_Source;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 -2 -2 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    inlet
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    bottom
+    {
+        type            zeroGradient;
+    }
+    top
+    {
+        type            symmetryPlane;
+    }
+    side1
+    {
+        type            symmetryPlane;
+    }
+    side2
+    {
+        type            symmetryPlane;
+    }
+    procBoundary92to28
+    {
+        type            processor;
+        value           uniform (0 0 0);
+    }
+    procBoundary92to76
+    {
+        type            processor;
+        value           uniform (0 0 0);
+    }
+    procBoundary92to91
+    {
+        type            processor;
+        value           nonuniform List<vector> 
+12
+(
+(-2.62008e-135 -3.27156e-135 5.11095e-135)
+(-8.282e-133 -1.03413e-132 1.61556e-132)
+(-1.31005e-134 -1.63579e-134 2.55548e-134)
+(-1.10519e-136 -1.38e-136 2.15588e-136)
+(-1.61896e-137 -2.02151e-137 3.15808e-137)
+(-5.1175e-135 -6.38996e-135 9.98261e-135)
+(-8.63448e-137 -1.07814e-136 1.68431e-136)
+(-7.73958e-139 -9.66402e-139 1.50975e-138)
+(-5.3489e-140 -6.6789e-140 1.03809e-139)
+(-1.69041e-137 -2.11073e-137 3.2821e-137)
+(-3.03081e-139 -3.78442e-139 5.883e-139)
+(-2.87689e-141 -3.59222e-141 5.58269e-141)
+)
+;
+    }
+    procBoundary92to93
+    {
+        type            processor;
+        value           uniform (0 0 0);
+    }
+    procBoundary92to108
+    {
+        type            processor;
+        value           uniform (0 0 0);
+    }
+}
+
+
+// ************************************************************************* //

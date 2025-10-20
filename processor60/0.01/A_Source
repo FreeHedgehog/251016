@@ -1,0 +1,71 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    location    "0.01";
+    object      A_Source;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 -2 -2 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    inlet
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    bottom
+    {
+        type            zeroGradient;
+    }
+    top
+    {
+        type            symmetryPlane;
+    }
+    side1
+    {
+        type            symmetryPlane;
+    }
+    side2
+    {
+        type            symmetryPlane;
+    }
+    procBoundary60to44
+    {
+        type            processor;
+        value           uniform (0 0 0);
+    }
+    procBoundary60to59
+    {
+        type            processor;
+        value           nonuniform List<vector> 8((1.52896e-171 1.93642e-171 -2.98251e-171) (3.22604e-173 4.08577e-173 -6.29298e-173) (3.5736e-175 4.52595e-175 -6.97096e-175) (2.78157e-177 3.48037e-177 -5.42597e-177) (3.04879e-173 3.85352e-173 -5.94722e-173) (6.56291e-175 8.2955e-175 -1.28022e-174) (7.41392e-177 9.37151e-177 -1.44622e-176) (5.88336e-179 7.34567e-179 -1.14766e-178));
+    }
+    procBoundary60to61
+    {
+        type            processor;
+        value           uniform (0 0 0);
+    }
+    procBoundary60to124
+    {
+        type            processor;
+        value           uniform (0 0 0);
+    }
+}
+
+
+// ************************************************************************* //
