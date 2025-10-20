@@ -30,7 +30,7 @@ dump id all custom 1000 snapshot.bubblemd id type diameter mass x y z vx vy vz
 
 thermo_style one
 thermo 2000
-thermo_modify lost warn
+thermo_modify lost ignore
 
 run 0 pre no post no
 run 10000 pre no post no

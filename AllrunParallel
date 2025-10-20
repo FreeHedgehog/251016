@@ -11,7 +11,7 @@ if [ -z "$WM_PROJECT_VERSION" ]; then
   fi
 fi
 
-blockMesh &> log.bolckMesh
+blockMesh &> log.blockMesh
 
 decomposePar &> log.decomposePar
 
