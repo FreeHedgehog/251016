@@ -1,57 +1,20 @@
 LAMMPS (1 Feb 2014)
-# 2D particle pipe simulation
-
-
-
-
-
-
-
 units si
 
+atom_style sphere
 
+atom_modify map array
 
-atom_style	sphere
+boundary ff ff ff
 
+newton off
 
-
-atom_modify	map array
-
-
-
-boundary	ff ff ff
-
-
-
-newton		off
-
-
-
-processors  16 4 2
-
-
-
-
+#processors 16 4 2
 
 
 
 communicate single vel yes
 
+read_data initial_bed.lammps
 
-
-#read_data 	IC_uniform_100.in
-
-
-
-read_data	initial_bed.lammps
-
-  orthogonal box = (0 0 0) to (0.05 0.02 0.01)
-  16 by 4 by 2 MPI processor grid
-  reading atoms ...
-  26250 atoms
-
-
-  orthogonal box = (0 0 0) to (0.05 0.02 0.01)
-
-ERROR: Unknown command:   orthogonal box = (0 0 0) to (0.05 0.02 0.01)
- (input.cpp:284)
+ERROR: Unknown identifier in data file: Granular Flow simulation (read_data.cpp:708)

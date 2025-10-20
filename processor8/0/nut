@@ -24,7 +24,7 @@ boundaryField
     inlet
     {
         type            calculated;
-        value           nonuniform 0();
+        value           uniform 0;
     }
     outlet
     {
@@ -48,7 +48,7 @@ boundaryField
     {
         type            symmetryPlane;
     }
-    procBoundary8to7
+    procBoundary8to0
     {
         type            processor;
         value           uniform 0;
@@ -58,12 +58,7 @@ boundaryField
         type            processor;
         value           uniform 0;
     }
-    procBoundary8to24
-    {
-        type            processor;
-        value           uniform 0;
-    }
-    procBoundary8to72
+    procBoundary8to16
     {
         type            processor;
         value           uniform 0;

@@ -24,7 +24,7 @@ boundaryField
     inlet
     {
         type            fixedValue;
-        value           nonuniform 0();
+        value           uniform (6 0 0);
     }
     outlet
     {
@@ -47,37 +47,12 @@ boundaryField
     {
         type            symmetryPlane;
     }
-    procBoundary24to8
-    {
-        type            processor;
-        value           uniform (0 0 0);
-    }
-    procBoundary24to23
+    procBoundary24to16
     {
         type            processor;
         value           uniform (0 0 0);
     }
     procBoundary24to25
-    {
-        type            processor;
-        value           uniform (0 0 0);
-    }
-    procBoundary24to40
-    {
-        type            processor;
-        value           uniform (0 0 0);
-    }
-    procBoundary24to88
-    {
-        type            processor;
-        value           uniform (0 0 0);
-    }
-    procBoundary24to89
-    {
-        type            processor;
-        value           uniform (0 0 0);
-    }
-    procBoundary24to104
     {
         type            processor;
         value           uniform (0 0 0);

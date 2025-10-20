@@ -46,7 +46,7 @@ boundaryField
     {
         type            symmetryPlane;
     }
-    procBoundary29to13
+    procBoundary29to21
     {
         type            processor;
         value           uniform 0;
@@ -57,16 +57,6 @@ boundaryField
         value           uniform 0;
     }
     procBoundary29to30
-    {
-        type            processor;
-        value           uniform 0;
-    }
-    procBoundary29to45
-    {
-        type            processor;
-        value           uniform 0;
-    }
-    procBoundary29to93
     {
         type            processor;
         value           uniform 0;

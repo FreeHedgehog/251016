@@ -15,7 +15,7 @@ blockMesh &> log.bolckMesh
 
 decomposePar &> log.decomposePar
 
-NPROCS=${NPROCS:-128}
+NPROCS=${NPROCS:-32}
 export OMPI_ALLOW_RUN_AS_ROOT=1
 export OMPI_ALLOW_RUN_AS_ROOT_CONFIRM=1
 

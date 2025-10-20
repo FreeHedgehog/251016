@@ -1,5 +1,5 @@
-Unexpected end of /proc/mounts line `overlay / overlay rw,relatime,lowerdir=/data/docker/overlay2/l/LBVECHLPE6WFXICD7XQULY2XQH:/data/docker/overlay2/l/MF3OKIY5MJVHNI7YT3Q5UDYGES:/data/docker/overlay2/l/445SACWG5AVNO6LD775RLR464C:/data/docker/overlay2/l/JWYFRGYGJTPZYDZBA7ME5XP2HO:/data/docker/overlay2/l/5V5BU4YTCZJOTO3LSZRSKRKGYX:/data/docker/overlay2/l/IHSY57X5F5A3KVKSX52SWA3PEO:/data/docker/overlay2/l/DTWVMH6VNGAY3G2JOY5IEEIXXU:/data/docker/overlay2/l/2R4ZAUP2VQKGMVLKRVSH7PWJBR:/data/docker/overlay2/l/OV4MJMGWAFWUBGXTPGI3656SUU:/data/docker/'
-Unexpected end of /proc/mounts line `overlay2/l/NQELVWCBRC66FKLR3UTI6WNQZE:/data/docker/overlay2/l/XIFT4G3BZDZLHHPGM3MWQ3CXL6:/data/docker/overlay2/l/BFQ2ILOKJHM3OHBIYBYRVTYN4N:/data/docker/overlay2/l/YSFP6NMSQR5N6JP5K7MPRJ27ZS:/data/docker/overlay2/l/LQ7XGKJMHGBNLB7XPIVX4HBXSN:/data/docker/overlay2/l/XHGSF76S3ZA4HPHV2RQP4KEGXP:/data/docker/overlay2/l/D64KWNAOPENOLS5XXTPJBCANRS:/data/docker/overlay2/l/NUFRODNB7GIIOZV6YIHUAVX73P:/data/docker/overlay2/l/2HNYBKFUKZNMY6GHWID6JGI3B5:/data/docker/overlay2/l/IJRL2BQQITUREBT2TOZD6TTGTC:/data/docker/o'
+Unexpected end of /proc/mounts line `overlay / overlay rw,relatime,lowerdir=/data/docker/overlay2/l/BZURXS4YHNIFDQPN46XOC26PIZ:/data/docker/overlay2/l/IZZK2XN7TXKDTDVOFI62BW4FUN:/data/docker/overlay2/l/CXETXQI3ZU3S43T4ADDWF62CNL:/data/docker/overlay2/l/K6AETV65RMUGCOSQWXKBAGEQLX:/data/docker/overlay2/l/FPWXQIE44EYSQRHJRMHMUOFAGJ:/data/docker/overlay2/l/XUENBPH5F6XQTLPQVRQQYFKDYZ:/data/docker/overlay2/l/ZEWWAID4EBJS4KZFPGANGCR2BO:/data/docker/overlay2/l/REYEOJCXTGVOOKMO2CJZEOH2FV:/data/docker/overlay2/l/C4T5VEJAGS2OK6K3M3523QXSGV:/data/docker/'
+Unexpected end of /proc/mounts line `overlay2/l/5LMWOC7PENKH434TEZS75HKQB6:/data/docker/overlay2/l/DOAB5S6MFGNLSVEUEZVK5YZI6Y:/data/docker/overlay2/l/5FFTOVZ62VHEWKORD7VHTQNLM7:/data/docker/overlay2/l/NKG4XUCRUIME2CXQ32OG4L5UBZ:/data/docker/overlay2/l/GYYQMSTURQ3DRDODVTBQJIKDQG:/data/docker/overlay2/l/RY2H4RUNIBVF4BJOYB3U6BDOMH:/data/docker/overlay2/l/RMZDBRWLRANUR6IN2TIH3VYWJI:/data/docker/overlay2/l/T6E2JI6NYUQICFPSWNCDTGGILV:/data/docker/overlay2/l/CFCISXCHESQSGPX3LDWNDUPFWM:/data/docker/overlay2/l/D3IJPWJZF3CLHBJAKAXWRIRRKV:/data/docker/o'
 /*---------------------------------------------------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
@@ -10,141 +10,45 @@ Unexpected end of /proc/mounts line `overlay2/l/NQELVWCBRC66FKLR3UTI6WNQZE:/data
 Build  : 2.4.0-dcea1e13ff76
 Exec   : lammpsFoam -parallel
 Date   : Oct 20 2025
-Time   : 10:44:52
-Host   : "autodl-container-544940a921-b5bdd748"
-PID    : 23388
+Time   : 16:29:38
+Host   : "autodl-container-68ab428934-c4e3195d"
+PID    : 1691
 Case   : /root/windDEM/251016
-nProcs : 128
+nProcs : 32
 Slaves : 
-127
+31
 (
-"autodl-container-544940a921-b5bdd748.23389"
-"autodl-container-544940a921-b5bdd748.23390"
-"autodl-container-544940a921-b5bdd748.23391"
-"autodl-container-544940a921-b5bdd748.23392"
-"autodl-container-544940a921-b5bdd748.23393"
-"autodl-container-544940a921-b5bdd748.23394"
-"autodl-container-544940a921-b5bdd748.23395"
-"autodl-container-544940a921-b5bdd748.23396"
-"autodl-container-544940a921-b5bdd748.23397"
-"autodl-container-544940a921-b5bdd748.23398"
-"autodl-container-544940a921-b5bdd748.23399"
-"autodl-container-544940a921-b5bdd748.23400"
-"autodl-container-544940a921-b5bdd748.23401"
-"autodl-container-544940a921-b5bdd748.23402"
-"autodl-container-544940a921-b5bdd748.23403"
-"autodl-container-544940a921-b5bdd748.23404"
-"autodl-container-544940a921-b5bdd748.23405"
-"autodl-container-544940a921-b5bdd748.23406"
-"autodl-container-544940a921-b5bdd748.23407"
-"autodl-container-544940a921-b5bdd748.23408"
-"autodl-container-544940a921-b5bdd748.23409"
-"autodl-container-544940a921-b5bdd748.23410"
-"autodl-container-544940a921-b5bdd748.23411"
-"autodl-container-544940a921-b5bdd748.23412"
-"autodl-container-544940a921-b5bdd748.23413"
-"autodl-container-544940a921-b5bdd748.23414"
-"autodl-container-544940a921-b5bdd748.23415"
-"autodl-container-544940a921-b5bdd748.23416"
-"autodl-container-544940a921-b5bdd748.23418"
-"autodl-container-544940a921-b5bdd748.23419"
-"autodl-container-544940a921-b5bdd748.23421"
-"autodl-container-544940a921-b5bdd748.23423"
-"autodl-container-544940a921-b5bdd748.23426"
-"autodl-container-544940a921-b5bdd748.23430"
-"autodl-container-544940a921-b5bdd748.23431"
-"autodl-container-544940a921-b5bdd748.23435"
-"autodl-container-544940a921-b5bdd748.23436"
-"autodl-container-544940a921-b5bdd748.23438"
-"autodl-container-544940a921-b5bdd748.23441"
-"autodl-container-544940a921-b5bdd748.23442"
-"autodl-container-544940a921-b5bdd748.23444"
-"autodl-container-544940a921-b5bdd748.23447"
-"autodl-container-544940a921-b5bdd748.23448"
-"autodl-container-544940a921-b5bdd748.23449"
-"autodl-container-544940a921-b5bdd748.23451"
-"autodl-container-544940a921-b5bdd748.23453"
-"autodl-container-544940a921-b5bdd748.23455"
-"autodl-container-544940a921-b5bdd748.23457"
-"autodl-container-544940a921-b5bdd748.23459"
-"autodl-container-544940a921-b5bdd748.23461"
-"autodl-container-544940a921-b5bdd748.23463"
-"autodl-container-544940a921-b5bdd748.23464"
-"autodl-container-544940a921-b5bdd748.23465"
-"autodl-container-544940a921-b5bdd748.23467"
-"autodl-container-544940a921-b5bdd748.23471"
-"autodl-container-544940a921-b5bdd748.23474"
-"autodl-container-544940a921-b5bdd748.23476"
-"autodl-container-544940a921-b5bdd748.23477"
-"autodl-container-544940a921-b5bdd748.23478"
-"autodl-container-544940a921-b5bdd748.23481"
-"autodl-container-544940a921-b5bdd748.23482"
-"autodl-container-544940a921-b5bdd748.23485"
-"autodl-container-544940a921-b5bdd748.23487"
-"autodl-container-544940a921-b5bdd748.23488"
-"autodl-container-544940a921-b5bdd748.23490"
-"autodl-container-544940a921-b5bdd748.23517"
-"autodl-container-544940a921-b5bdd748.23519"
-"autodl-container-544940a921-b5bdd748.23521"
-"autodl-container-544940a921-b5bdd748.23523"
-"autodl-container-544940a921-b5bdd748.23524"
-"autodl-container-544940a921-b5bdd748.23525"
-"autodl-container-544940a921-b5bdd748.23526"
-"autodl-container-544940a921-b5bdd748.23527"
-"autodl-container-544940a921-b5bdd748.23528"
-"autodl-container-544940a921-b5bdd748.23529"
-"autodl-container-544940a921-b5bdd748.23530"
-"autodl-container-544940a921-b5bdd748.23531"
-"autodl-container-544940a921-b5bdd748.23532"
-"autodl-container-544940a921-b5bdd748.23533"
-"autodl-container-544940a921-b5bdd748.23534"
-"autodl-container-544940a921-b5bdd748.23535"
-"autodl-container-544940a921-b5bdd748.23536"
-"autodl-container-544940a921-b5bdd748.23537"
-"autodl-container-544940a921-b5bdd748.23538"
-"autodl-container-544940a921-b5bdd748.23539"
-"autodl-container-544940a921-b5bdd748.23540"
-"autodl-container-544940a921-b5bdd748.23542"
-"autodl-container-544940a921-b5bdd748.23544"
-"autodl-container-544940a921-b5bdd748.23546"
-"autodl-container-544940a921-b5bdd748.23548"
-"autodl-container-544940a921-b5bdd748.23549"
-"autodl-container-544940a921-b5bdd748.23551"
-"autodl-container-544940a921-b5bdd748.23553"
-"autodl-container-544940a921-b5bdd748.23554"
-"autodl-container-544940a921-b5bdd748.23557"
-"autodl-container-544940a921-b5bdd748.23563"
-"autodl-container-544940a921-b5bdd748.23565"
-"autodl-container-544940a921-b5bdd748.23567"
-"autodl-container-544940a921-b5bdd748.23568"
-"autodl-container-544940a921-b5bdd748.23572"
-"autodl-container-544940a921-b5bdd748.23574"
-"autodl-container-544940a921-b5bdd748.23577"
-"autodl-container-544940a921-b5bdd748.23580"
-"autodl-container-544940a921-b5bdd748.23581"
-"autodl-container-544940a921-b5bdd748.23583"
-"autodl-container-544940a921-b5bdd748.23584"
-"autodl-container-544940a921-b5bdd748.23585"
-"autodl-container-544940a921-b5bdd748.23586"
-"autodl-container-544940a921-b5bdd748.23588"
-"autodl-container-544940a921-b5bdd748.23589"
-"autodl-container-544940a921-b5bdd748.23590"
-"autodl-container-544940a921-b5bdd748.23592"
-"autodl-container-544940a921-b5bdd748.23594"
-"autodl-container-544940a921-b5bdd748.23597"
-"autodl-container-544940a921-b5bdd748.23598"
-"autodl-container-544940a921-b5bdd748.23599"
-"autodl-container-544940a921-b5bdd748.23601"
-"autodl-container-544940a921-b5bdd748.23606"
-"autodl-container-544940a921-b5bdd748.23607"
-"autodl-container-544940a921-b5bdd748.23613"
-"autodl-container-544940a921-b5bdd748.23615"
-"autodl-container-544940a921-b5bdd748.23617"
-"autodl-container-544940a921-b5bdd748.23618"
-"autodl-container-544940a921-b5bdd748.23619"
-"autodl-container-544940a921-b5bdd748.23621"
-"autodl-container-544940a921-b5bdd748.23622"
-"autodl-container-544940a921-b5bdd748.23642"
+"autodl-container-68ab428934-c4e3195d.1692"
+"autodl-container-68ab428934-c4e3195d.1693"
+"autodl-container-68ab428934-c4e3195d.1694"
+"autodl-container-68ab428934-c4e3195d.1695"
+"autodl-container-68ab428934-c4e3195d.1696"
+"autodl-container-68ab428934-c4e3195d.1697"
+"autodl-container-68ab428934-c4e3195d.1698"
+"autodl-container-68ab428934-c4e3195d.1699"
+"autodl-container-68ab428934-c4e3195d.1700"
+"autodl-container-68ab428934-c4e3195d.1701"
+"autodl-container-68ab428934-c4e3195d.1702"
+"autodl-container-68ab428934-c4e3195d.1703"
+"autodl-container-68ab428934-c4e3195d.1704"
+"autodl-container-68ab428934-c4e3195d.1705"
+"autodl-container-68ab428934-c4e3195d.1706"
+"autodl-container-68ab428934-c4e3195d.1707"
+"autodl-container-68ab428934-c4e3195d.1708"
+"autodl-container-68ab428934-c4e3195d.1709"
+"autodl-container-68ab428934-c4e3195d.1710"
+"autodl-container-68ab428934-c4e3195d.1711"
+"autodl-container-68ab428934-c4e3195d.1712"
+"autodl-container-68ab428934-c4e3195d.1716"
+"autodl-container-68ab428934-c4e3195d.1718"
+"autodl-container-68ab428934-c4e3195d.1721"
+"autodl-container-68ab428934-c4e3195d.1723"
+"autodl-container-68ab428934-c4e3195d.1725"
+"autodl-container-68ab428934-c4e3195d.1726"
+"autodl-container-68ab428934-c4e3195d.1727"
+"autodl-container-68ab428934-c4e3195d.1729"
+"autodl-container-68ab428934-c4e3195d.1730"
+"autodl-container-68ab428934-c4e3195d.1732"
 )
 
 Pstream initialized with:
@@ -204,12 +108,7 @@ Total cells: 0. Total particles to add: 0
 LAMMPS (1 Feb 2014)
 Reading Lammps inputfile (in.lammps) ...
 Reading data file ...
-  orthogonal box = (0 0 0) to (0.05 0.02 0.01)
-  16 by 4 by 2 MPI processor grid
-  reading atoms ...
-  26250 atoms
-ERROR: Unknown command:   orthogonal box = (0 0 0) to (0.05 0.02 0.01)
- (input.cpp:284)
+ERROR: Unknown identifier in data file: Granular Flow simulation (read_data.cpp:708)
 -------------------------------------------------------
 Primary job  terminated normally, but 1 process returned
 a non-zero exit code.. Per user-direction, the job has been aborted.
@@ -218,6 +117,6 @@ a non-zero exit code.. Per user-direction, the job has been aborted.
 mpirun detected that one or more processes exited with non-zero status, thus causing
 the job to be terminated. The first process to do so was:
 
-  Process name: [[60061,1],3]
+  Process name: [[53284,1],3]
   Exit code:    1
 --------------------------------------------------------------------------
