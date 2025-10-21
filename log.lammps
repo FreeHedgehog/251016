@@ -76,7 +76,7 @@ run 0 pre no post no
 Memory usage per processor = 17.8195 Mbytes
 Step Temp E_pair E_mol TotEng Press 
        0            0            0            0            0 4.9482021e-21 
-Loop time of 0.000133574 on 32 procs for 0 steps with 26250 atoms
+Loop time of 0.000144258 on 32 procs for 0 steps with 26250 atoms
 run 10000 pre no post no
 
 Step Temp E_pair E_mol TotEng Press 
@@ -86,11 +86,11 @@ Step Temp E_pair E_mol TotEng Press
     6000 9.0171311e+09            0            0 4.9018061e-09 0.00035763501 
     8000 1.5637457e+10            0            0 8.500684e-09 0.00079385409 
    10000 2.3859383e+10            0            0 1.2970208e-08 0.0017782518 
-Loop time of 154.646 on 32 procs for 10000 steps with 26250 atoms
+Loop time of 154.732 on 32 procs for 10000 steps with 26250 atoms
 run 0 pre no post no
 Step Temp E_pair E_mol TotEng Press 
    10000 2.3859383e+10            0            0 1.2970208e-08 0.0017782518 
-Loop time of 0.000124261 on 32 procs for 0 steps with 26250 atoms
+Loop time of 0.000235558 on 32 procs for 0 steps with 26250 atoms
 run 10000 pre no post no
 Step Temp E_pair E_mol TotEng Press 
    10000 2.3859383e+10            0            0 1.2970208e-08 0.0017782518 
@@ -99,7 +99,7 @@ Step Temp E_pair E_mol TotEng Press
    16000 6.1064679e+12            0            0 3.3195393e-06   0.24791009 
    18000 1.0756185e+13            0            0 5.8471737e-06   0.44057238 
    20000 1.6672071e+13            0            0 9.0631111e-06     0.689091 
-Loop time of 156.177 on 32 procs for 10000 steps with 26250 atoms
+Loop time of 157.924 on 32 procs for 10000 steps with 26250 atoms
 run 10000 pre no post no
 Step Temp E_pair E_mol TotEng Press 
    20000 1.6672071e+13            0            0 9.0631111e-06     0.689091 
@@ -108,7 +108,7 @@ Step Temp E_pair E_mol TotEng Press
    26000 1.885407e+17            0            0   0.10249268    6833.2184 
    28000 8.7776233e+16            0            0  0.047716072    3181.5212 
    30000 5.5446426e+16            0            0  0.030141253    2009.7877 
-Loop time of 109.097 on 32 procs for 10000 steps with 10655 atoms
+Loop time of 119.03 on 32 procs for 10000 steps with 10655 atoms
 run 10000 pre no post no
 Step Temp E_pair E_mol TotEng Press 
    30000 5.5446426e+16            0            0  0.030141253    2009.7877 
@@ -117,7 +117,7 @@ Step Temp E_pair E_mol TotEng Press
    36000 1.623316e+16            0            0 0.0088245146    588.36233 
    38000 1.2189584e+16            0            0 0.0066263847    441.78501 
    40000 8.8395974e+15            0            0 0.0048052969    320.36679 
-Loop time of 8.95409 on 32 procs for 10000 steps with 3347 atoms
+Loop time of 10.1937 on 32 procs for 10000 steps with 3347 atoms
 run 10000 pre no post no
 Step Temp E_pair E_mol TotEng Press 
    40000 8.8395974e+15            0            0 0.0048052969    320.36679 
@@ -126,7 +126,7 @@ Step Temp E_pair E_mol TotEng Press
    46000 3.6813456e+15            0            0 0.0020012177    133.41641 
    48000 2.6167089e+15            0            0 0.0014224701    94.831985 
    50000 2.0217227e+15            0            0 0.0010990294    73.269166 
-Loop time of 2.55017 on 32 procs for 10000 steps with 672 atoms
+Loop time of 2.65211 on 32 procs for 10000 steps with 672 atoms
 run 10000 pre no post no
 Step Temp E_pair E_mol TotEng Press 
    50000 2.0217227e+15            0            0 0.0010990294    73.269166 
@@ -135,7 +135,7 @@ Step Temp E_pair E_mol TotEng Press
    56000            0            0            0            0            0 
    58000            0            0            0            0            0 
    60000            0            0            0            0            0 
-Loop time of 1.32274 on 32 procs for 10000 steps with 0 atoms
+Loop time of 1.31078 on 32 procs for 10000 steps with 0 atoms
 run 10000 pre no post no
 Step Temp E_pair E_mol TotEng Press 
    60000            0            0            0            0            0 
@@ -144,7 +144,7 @@ Step Temp E_pair E_mol TotEng Press
    66000            0            0            0            0            0 
    68000            0            0            0            0            0 
    70000            0            0            0            0            0 
-Loop time of 1.24185 on 32 procs for 10000 steps with 0 atoms
+Loop time of 1.21575 on 32 procs for 10000 steps with 0 atoms
 run 10000 pre no post no
 Step Temp E_pair E_mol TotEng Press 
    70000            0            0            0            0            0 
@@ -153,4 +153,4 @@ Step Temp E_pair E_mol TotEng Press
    76000            0            0            0            0            0 
    78000            0            0            0            0            0 
    80000            0            0            0            0            0 
-Loop time of 1.24763 on 32 procs for 10000 steps with 0 atoms
+Loop time of 1.21622 on 32 procs for 10000 steps with 0 atoms

@@ -10,45 +10,45 @@ Unexpected end of /proc/mounts line `overlay2/l/GTG4PAPSBCCOL3TP5TTCG7O5DD:/data
 Build  : 2.4.0-dcea1e13ff76
 Exec   : lammpsFoam -parallel
 Date   : Oct 21 2025
-Time   : 09:09:49
+Time   : 09:24:22
 Host   : "autodl-container-7a3549ab46-711d4f04"
-PID    : 1225
+PID    : 1922
 Case   : /root/windDEM/251016
 nProcs : 32
 Slaves : 
 31
 (
-"autodl-container-7a3549ab46-711d4f04.1226"
-"autodl-container-7a3549ab46-711d4f04.1227"
-"autodl-container-7a3549ab46-711d4f04.1228"
-"autodl-container-7a3549ab46-711d4f04.1229"
-"autodl-container-7a3549ab46-711d4f04.1230"
-"autodl-container-7a3549ab46-711d4f04.1231"
-"autodl-container-7a3549ab46-711d4f04.1232"
-"autodl-container-7a3549ab46-711d4f04.1233"
-"autodl-container-7a3549ab46-711d4f04.1234"
-"autodl-container-7a3549ab46-711d4f04.1235"
-"autodl-container-7a3549ab46-711d4f04.1236"
-"autodl-container-7a3549ab46-711d4f04.1237"
-"autodl-container-7a3549ab46-711d4f04.1238"
-"autodl-container-7a3549ab46-711d4f04.1239"
-"autodl-container-7a3549ab46-711d4f04.1240"
-"autodl-container-7a3549ab46-711d4f04.1241"
-"autodl-container-7a3549ab46-711d4f04.1242"
-"autodl-container-7a3549ab46-711d4f04.1243"
-"autodl-container-7a3549ab46-711d4f04.1244"
-"autodl-container-7a3549ab46-711d4f04.1245"
-"autodl-container-7a3549ab46-711d4f04.1246"
-"autodl-container-7a3549ab46-711d4f04.1247"
-"autodl-container-7a3549ab46-711d4f04.1248"
-"autodl-container-7a3549ab46-711d4f04.1249"
-"autodl-container-7a3549ab46-711d4f04.1250"
-"autodl-container-7a3549ab46-711d4f04.1251"
-"autodl-container-7a3549ab46-711d4f04.1252"
-"autodl-container-7a3549ab46-711d4f04.1253"
-"autodl-container-7a3549ab46-711d4f04.1254"
-"autodl-container-7a3549ab46-711d4f04.1255"
-"autodl-container-7a3549ab46-711d4f04.1256"
+"autodl-container-7a3549ab46-711d4f04.1923"
+"autodl-container-7a3549ab46-711d4f04.1924"
+"autodl-container-7a3549ab46-711d4f04.1925"
+"autodl-container-7a3549ab46-711d4f04.1926"
+"autodl-container-7a3549ab46-711d4f04.1927"
+"autodl-container-7a3549ab46-711d4f04.1928"
+"autodl-container-7a3549ab46-711d4f04.1929"
+"autodl-container-7a3549ab46-711d4f04.1930"
+"autodl-container-7a3549ab46-711d4f04.1931"
+"autodl-container-7a3549ab46-711d4f04.1932"
+"autodl-container-7a3549ab46-711d4f04.1933"
+"autodl-container-7a3549ab46-711d4f04.1934"
+"autodl-container-7a3549ab46-711d4f04.1935"
+"autodl-container-7a3549ab46-711d4f04.1936"
+"autodl-container-7a3549ab46-711d4f04.1937"
+"autodl-container-7a3549ab46-711d4f04.1938"
+"autodl-container-7a3549ab46-711d4f04.1939"
+"autodl-container-7a3549ab46-711d4f04.1940"
+"autodl-container-7a3549ab46-711d4f04.1941"
+"autodl-container-7a3549ab46-711d4f04.1942"
+"autodl-container-7a3549ab46-711d4f04.1943"
+"autodl-container-7a3549ab46-711d4f04.1944"
+"autodl-container-7a3549ab46-711d4f04.1945"
+"autodl-container-7a3549ab46-711d4f04.1946"
+"autodl-container-7a3549ab46-711d4f04.1947"
+"autodl-container-7a3549ab46-711d4f04.1948"
+"autodl-container-7a3549ab46-711d4f04.1949"
+"autodl-container-7a3549ab46-711d4f04.1950"
+"autodl-container-7a3549ab46-711d4f04.1951"
+"autodl-container-7a3549ab46-711d4f04.1952"
+"autodl-container-7a3549ab46-711d4f04.1955"
 )
 
 Pstream initialized with:
@@ -121,7 +121,7 @@ Setting up run ...
 Memory usage per processor = 17.8195 Mbytes
 Step Temp E_pair E_mol TotEng Press 
        0            0            0            0            0 4.9482021e-21 
-Loop time of 0.000133574 on 32 procs for 0 steps with 26250 atoms
+Loop time of 0.000144258 on 32 procs for 0 steps with 26250 atoms
 Step Temp E_pair E_mol TotEng Press 
        0            0            0            0            0 4.9482021e-21 
     2000 1.0303165e+09            0            0 5.6009075e-10 3.7348398e-05 
@@ -129,16 +129,29 @@ Step Temp E_pair E_mol TotEng Press
     6000 9.0171311e+09            0            0 4.9018061e-09 0.00035763501 
     8000 1.5637457e+10            0            0 8.500684e-09 0.00079385409 
    10000 2.3859383e+10            0            0 1.2970208e-08 0.0017782518 
-Loop time of 154.646 on 32 procs for 10000 steps with 26250 atoms
+Loop time of 154.732 on 32 procs for 10000 steps with 26250 atoms
 Finished reading Lammps inputfile.
 FOAM reported # of particles according to Lammps: 26250
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreducecreating new arrays...
+execution time is: 154.59
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[18] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[21] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[23] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[24] npArray is: 3255
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[25] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[26] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[27] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[28] npArray is: 3255
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[29] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[30] npArray is: 0
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[31] npArray is: 0
+[0] npArray is: 3255
+getting initial info of particles...
+execution time is: 154.59
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[1] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[2] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[3] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[4] npArray is: 3255
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[3] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[5] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[6] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[7] npArray is: 0
@@ -152,42 +165,23 @@ start getting info..creating array of the number of particle..initializing the n
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[15] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[16] npArray is: 3255
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[17] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[18] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[19] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[20] npArray is: 3360
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[21] npArray is: 0
 start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[22] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[23] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[25] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[26] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[27] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[29] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[30] npArray is: 0
-start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[31] npArray is: 0
-execution time is: 154.18
-[0] npArray is: 3255
-getting initial info of particles...
-execution time is: 154.18
+start getting info..creating array of the number of particle..initializing the number of particles in each processorcalling MPI_Allreduce[19] npArray is: 0
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!constructing particles...
-execution time is: 154.18
+execution time is: 154.59
 before moving...
-execution time is: 154.18
-execution time is: 154.58
+execution time is: 154.6
+execution time is: 155.01
 Step Temp E_pair E_mol TotEng Press 
    10000 2.3859383e+10            0            0 1.2970208e-08 0.0017782518 
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    31
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    23
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    25
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    26
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    24
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    27
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    29
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    30
-Loop time of 0.000124261 on 32 procs for 0 steps with 26250 atoms
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    28
+Loop time of 0.000235558 on 32 procs for 0 steps with 26250 atoms
+++++=A> domain in processor     0
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    19
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     1
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     4
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     2
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     3
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     4
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     5
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     6
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     7
@@ -200,14 +194,20 @@ start getting info..initializing position and velocityinitializing other valuesf
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    14
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    15
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    16
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    31
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    22
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    17
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    18
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    19
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    20
 start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    21
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    22
-start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor     1
-++++=A> domain in processor     0
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    23
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    24
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    25
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    26
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    27
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    28
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    29
+start getting info..initializing position and velocityinitializing other valuesfind the pointersstart the loop!++++=A> domain in processor    30
  is: x0 0.000000, x1 0.006250, y0 0.000000; y1 0.010000 z0 0.000000, z1 0.005000.initialization finished!
 
 SIMPLE: no convergence criteria found. Calculations will run for 10 steps.
@@ -330,7 +330,7 @@ Step Temp E_pair E_mol TotEng Press
    16000 6.1064679e+12            0            0 3.3195393e-06   0.24791009 
    18000 1.0756185e+13            0            0 5.8471737e-06   0.44057238 
    20000 1.6672071e+13            0            0 9.0631111e-06     0.689091 
-Loop time of 156.177 on 32 procs for 10000 steps with 26250 atoms
+Loop time of 157.924 on 32 procs for 10000 steps with 26250 atoms
 finished moving the particles in LAMMPS.
 the number of particles in LAMMPS now is: 26250
 data transformed into each processor!
@@ -390,9 +390,9 @@ DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00212331, Final resid
 DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.0019508, Final residual = 2.46125e-13, No Iterations 3
 total F before: (-0.0622081 -0.000298689 0.000538388)
 total F after: (-0.0621618 -0.00029496 0.000537957)
-ExecutionTime = 310.95 s  ClockTime = 312 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.08, 310.79, 0.05, 0, 0.26, 0.01) s
+ExecutionTime = 313.01 s  ClockTime = 314 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.07, 312.86, 0.05, 0, 0.3, 0) s
 
-assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0, 0.1, 0, 0, 155.87, 0) s
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0, 0.1, 0.01, 0, 157.49, 0) s
 
 Time = 0.002
 
@@ -431,7 +431,7 @@ Step Temp E_pair E_mol TotEng Press
    26000 1.885407e+17            0            0   0.10249268    6833.2184 
    28000 8.7776233e+16            0            0  0.047716072    3181.5212 
    30000 5.5446426e+16            0            0  0.030141253    2009.7877 
-Loop time of 109.097 on 32 procs for 10000 steps with 10655 atoms
+Loop time of 119.03 on 32 procs for 10000 steps with 10655 atoms
 finished moving the particles in LAMMPS.
 the number of particles in LAMMPS now is: 10655
 data transformed into each processor!
@@ -493,9 +493,9 @@ DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00352926, Final resid
 DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00308981, Final residual = 7.48354e-13, No Iterations 3
 total F before: (1.49594 -0.693823 -0.473024)
 total F after: (1.49491 -0.685269 -0.473077)
-ExecutionTime = 420.36 s  ClockTime = 422 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.19, 420.03, 0.11, 0, 0.44, 0.25) s
+ExecutionTime = 432.13 s  ClockTime = 434 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.18, 431.8, 0.12, 0, 0.46, 0.25) s
 
-assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0, 0.11, 0, 0, 264.71, 0) s
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0, 0.12, 0.01, 0.01, 276.02, 0) s
 
 Time = 0.003
 
@@ -535,7 +535,7 @@ Step Temp E_pair E_mol TotEng Press
    36000 1.623316e+16            0            0 0.0088245146    588.36233 
    38000 1.2189584e+16            0            0 0.0066263847    441.78501 
    40000 8.8395974e+15            0            0 0.0048052969    320.36679 
-Loop time of 8.95409 on 32 procs for 10000 steps with 3347 atoms
+Loop time of 10.1937 on 32 procs for 10000 steps with 3347 atoms
 finished moving the particles in LAMMPS.
 the number of particles in LAMMPS now is: 3347
 data transformed into each processor!
@@ -597,9 +597,9 @@ DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325549, Final resid
 DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275039, Final residual = 8.31058e-14, No Iterations 2
 total F before: (-228254 24507 25454.2)
 total F after: (-228254 24196.8 25454.2)
-ExecutionTime = 429.72 s  ClockTime = 431 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.3, 429.22, 0.17, 0, 0.62, 0.32) s
+ExecutionTime = 442.86 s  ClockTime = 444 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.29, 442.31, 0.23, 0, 0.72, 0.37) s
 
-assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.01, 0.13, 0, 0, 273.65, 0) s
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0, 0.14, 0.02, 0.01, 286.19, 0) s
 
 Time = 0.004
 
@@ -639,7 +639,7 @@ Step Temp E_pair E_mol TotEng Press
    46000 3.6813456e+15            0            0 0.0020012177    133.41641 
    48000 2.6167089e+15            0            0 0.0014224701    94.831985 
    50000 2.0217227e+15            0            0 0.0010990294    73.269166 
-Loop time of 2.55017 on 32 procs for 10000 steps with 672 atoms
+Loop time of 2.65211 on 32 procs for 10000 steps with 672 atoms
 finished moving the particles in LAMMPS.
 the number of particles in LAMMPS now is: 672
 data transformed into each processor!
@@ -701,9 +701,9 @@ DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325544, Final resid
 DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275038, Final residual = 3.72238e-14, No Iterations 2
 total F before: (3.40798e+10 -2.931e+10 -4.88699e+10)
 total F after: (3.40798e+10 -2.8939e+10 -4.88699e+10)
-ExecutionTime = 432.66 s  ClockTime = 434 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.41, 432, 0.22, 0, 0.8, 0.38) s
+ExecutionTime = 445.95 s  ClockTime = 447 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.41, 445.21, 0.29, 0, 0.89, 0.44) s
 
-assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.01, 0.15, 0, 0, 276.18, 0) s
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0, 0.16, 0.02, 0.01, 288.84, 0) s
 
 Time = 0.005
 
@@ -743,7 +743,7 @@ Step Temp E_pair E_mol TotEng Press
    56000            0            0            0            0            0 
    58000            0            0            0            0            0 
    60000            0            0            0            0            0 
-Loop time of 1.32274 on 32 procs for 10000 steps with 0 atoms
+Loop time of 1.31078 on 32 procs for 10000 steps with 0 atoms
 finished moving the particles in LAMMPS.
 the number of particles in LAMMPS now is: 0
 data transformed into each processor!
@@ -805,9 +805,9 @@ DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325544, Final resid
 DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275038, Final residual = 3.72213e-14, No Iterations 2
 total F before: (-5.36843e+16 3.32732e+15 3.26739e+16)
 total F after: (-5.36843e+16 3.2852e+15 3.26739e+16)
-ExecutionTime = 434.33 s  ClockTime = 436 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.52, 433.5, 0.28, 0, 0.94, 0.4) s
+ExecutionTime = 447.63 s  ClockTime = 449 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.52, 446.71, 0.36, 0, 1.03, 0.48) s
 
-assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.02, 0.16, 0, 0, 277.5, 0) s
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.01, 0.17, 0.04, 0.01, 290.14, 0) s
 
 Time = 0.006
 
@@ -847,7 +847,7 @@ Step Temp E_pair E_mol TotEng Press
    66000            0            0            0            0            0 
    68000            0            0            0            0            0 
    70000            0            0            0            0            0 
-Loop time of 1.24185 on 32 procs for 10000 steps with 0 atoms
+Loop time of 1.21575 on 32 procs for 10000 steps with 0 atoms
 finished moving the particles in LAMMPS.
 the number of particles in LAMMPS now is: 0
 data transformed into each processor!
@@ -909,9 +909,9 @@ DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325544, Final resid
 DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275038, Final residual = 3.72213e-14, No Iterations 2
 total F before: (3.0231e+22 -5.36974e+21 -8.51955e+22)
 total F after: (3.0231e+22 -5.30177e+21 -8.51955e+22)
-ExecutionTime = 435.9 s  ClockTime = 437 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.63, 434.9, 0.34, 0, 1.07, 0.41) s
+ExecutionTime = 449.18 s  ClockTime = 451 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.61, 448.11, 0.42, 0, 1.17, 0.49) s
 
-assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.02, 0.17, 0.01, 0, 278.74, 0) s
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.01, 0.19, 0.04, 0.01, 291.36, 0) s
 
 Time = 0.007
 
@@ -951,7 +951,7 @@ Step Temp E_pair E_mol TotEng Press
    76000            0            0            0            0            0 
    78000            0            0            0            0            0 
    80000            0            0            0            0            0 
-Loop time of 1.24763 on 32 procs for 10000 steps with 0 atoms
+Loop time of 1.21622 on 32 procs for 10000 steps with 0 atoms
 finished moving the particles in LAMMPS.
 the number of particles in LAMMPS now is: 0
 data transformed into each processor!
@@ -1013,9 +1013,9 @@ DICPCG:  Solving for tempDiffVectory, Initial residual = 0.00325544, Final resid
 DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00275038, Final residual = 3.72213e-14, No Iterations 2
 total F before: (-1.37078e+28 -4.27112e+27 1.49891e+28)
 total F after: (-1.37078e+28 -4.21706e+27 1.49891e+28)
-ExecutionTime = 437.46 s  ClockTime = 439 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.73, 436.3, 0.4, 0, 1.22, 0.42) s
+ExecutionTime = 450.72 s  ClockTime = 452 s  OpenFOAM/evolve/calcTcField/diffusion/particle move = (0.71, 449.5, 0.47, 0, 1.31, 0.5) s
 
-assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.02, 0.2, 0.01, 0, 279.98, 0) s
+assemble/transpose/flatten/foam->lammps/lammps/lammps->foam = (0.02, 0.21, 0.05, 0.01, 292.57, 0) s
 
 Time = 0.008
 
@@ -1056,26 +1056,26 @@ DICPCG:  Solving for tempDiffVectorz, Initial residual = 0.00182981, Final resid
 [0] #8  ? at ??:?
 [0] #9  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
 [0] #10  ? at ??:?
-[autodl-container-7a3549ab46-711d4f04:01225] *** Process received signal ***
-[autodl-container-7a3549ab46-711d4f04:01225] Signal: Floating point exception (8)
-[autodl-container-7a3549ab46-711d4f04:01225] Signal code:  (-6)
-[autodl-container-7a3549ab46-711d4f04:01225] Failing at address: 0x4c9
-[autodl-container-7a3549ab46-711d4f04:01225] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x354c0)[0x7f783d5154c0]
-[autodl-container-7a3549ab46-711d4f04:01225] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0x38)[0x7f783d515438]
-[autodl-container-7a3549ab46-711d4f04:01225] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x354c0)[0x7f783d5154c0]
-[autodl-container-7a3549ab46-711d4f04:01225] [ 3] /root/OpenFOAM/OpenFOAM-2.4.0/platforms/linux64GccDPOpt/lib/libOpenFOAM.so(_ZN4Foam6divideERNS_5FieldIdEERKNS_5UListIdEES6_+0x125)[0x7f783e522ca5]
-[autodl-container-7a3549ab46-711d4f04:01225] [ 4] /root/OpenFOAM/OpenFOAM-2.4.0/platforms/linux64GccDPOpt/lib/libOpenFOAM.so(_ZN4FoamdvERKNS_3tmpINS_5FieldIdEEEES5_+0x95)[0x7f783e52e825]
-[autodl-container-7a3549ab46-711d4f04:01225] [ 5] /root/OpenFOAM/root-2.4.0/platforms/linux64GccDPOpt/lib/libLagrangianInterfacialModels.so(_ZNK4Foam13SyamlalOBrien2JdERKNS_5FieldIdEE+0xe11)[0x7f78429aaa61]
-[autodl-container-7a3549ab46-711d4f04:01225] [ 6] lammpsFoam[0x4ed7ee]
-[autodl-container-7a3549ab46-711d4f04:01225] [ 7] lammpsFoam[0x4f45ad]
-[autodl-container-7a3549ab46-711d4f04:01225] [ 8] lammpsFoam[0x4412bb]
-[autodl-container-7a3549ab46-711d4f04:01225] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f783d500840]
-[autodl-container-7a3549ab46-711d4f04:01225] [10] lammpsFoam[0x446849]
-[autodl-container-7a3549ab46-711d4f04:01225] *** End of error message ***
-[autodl-container-7a3549ab46-711d4f04][[32543,1],16][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
-[autodl-container-7a3549ab46-711d4f04][[32543,1],1][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
-[autodl-container-7a3549ab46-711d4f04][[32543,1],2][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
-[autodl-container-7a3549ab46-711d4f04][[32543,1],8][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[autodl-container-7a3549ab46-711d4f04:01922] *** Process received signal ***
+[autodl-container-7a3549ab46-711d4f04:01922] Signal: Floating point exception (8)
+[autodl-container-7a3549ab46-711d4f04:01922] Signal code:  (-6)
+[autodl-container-7a3549ab46-711d4f04:01922] Failing at address: 0x782
+[autodl-container-7a3549ab46-711d4f04:01922] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x354c0)[0x7f87fd3bb4c0]
+[autodl-container-7a3549ab46-711d4f04:01922] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0x38)[0x7f87fd3bb438]
+[autodl-container-7a3549ab46-711d4f04:01922] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x354c0)[0x7f87fd3bb4c0]
+[autodl-container-7a3549ab46-711d4f04:01922] [ 3] /root/OpenFOAM/OpenFOAM-2.4.0/platforms/linux64GccDPOpt/lib/libOpenFOAM.so(_ZN4Foam6divideERNS_5FieldIdEERKNS_5UListIdEES6_+0x125)[0x7f87fe3c8ca5]
+[autodl-container-7a3549ab46-711d4f04:01922] [ 4] /root/OpenFOAM/OpenFOAM-2.4.0/platforms/linux64GccDPOpt/lib/libOpenFOAM.so(_ZN4FoamdvERKNS_3tmpINS_5FieldIdEEEES5_+0x95)[0x7f87fe3d4825]
+[autodl-container-7a3549ab46-711d4f04:01922] [ 5] /root/OpenFOAM/root-2.4.0/platforms/linux64GccDPOpt/lib/libLagrangianInterfacialModels.so(_ZNK4Foam13SyamlalOBrien2JdERKNS_5FieldIdEE+0xe11)[0x7f8802850a61]
+[autodl-container-7a3549ab46-711d4f04:01922] [ 6] lammpsFoam[0x4ed7ee]
+[autodl-container-7a3549ab46-711d4f04:01922] [ 7] lammpsFoam[0x4f45ad]
+[autodl-container-7a3549ab46-711d4f04:01922] [ 8] lammpsFoam[0x4412bb]
+[autodl-container-7a3549ab46-711d4f04:01922] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f87fd3a6840]
+[autodl-container-7a3549ab46-711d4f04:01922] [10] lammpsFoam[0x446849]
+[autodl-container-7a3549ab46-711d4f04:01922] *** End of error message ***
+[autodl-container-7a3549ab46-711d4f04][[31911,1],16][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] [autodl-container-7a3549ab46-711d4f04][[31911,1],2][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[autodl-container-7a3549ab46-711d4f04][[31911,1],8][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+[autodl-container-7a3549ab46-711d4f04][[31911,1],1][btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
+mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)
 --------------------------------------------------------------------------
-mpirun noticed that process rank 0 with PID 1225 on node autodl-container-7a3549ab46-711d4f04 exited on signal 8 (Floating point exception).
+mpirun noticed that process rank 0 with PID 1922 on node autodl-container-7a3549ab46-711d4f04 exited on signal 8 (Floating point exception).
 --------------------------------------------------------------------------
